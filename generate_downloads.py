@@ -38,7 +38,7 @@ def build_download_name(name, filename):
 	return name
 
 def generate_rows(subfolder, pkg, version):
-	for filename in os.listdir("docs/downloads/%s" % subfolder):
+	for filename in sorted(os.listdir("docs/downloads/%s" % subfolder)):
 		prefix0 = "%s-%s" % (pkg, version)
 		prefix1 = "%s_%s" % (pkg, version)
 
