@@ -1,0 +1,29 @@
+site_name: 'efind'
+site_description: 'Extandable wrapper for GNU find.'
+site_author: 'Sebastian Fedrau'
+site_url: 'https://github.com/20centaurifux/efind'
+
+copyright: 'Copyright (c) 2017 Sebastian Fedrau'
+
+pages:
+    - Home: index.md
+    - Downloads: downloads.md
+    - Extensions: extensions.md
+    - Contact: contact.md
+    - Imprint: imprint.md
+
+extra_css:
+  - 'stylesheets/extra.css'
+
+theme: 'material'
+
+repo_name: 'GitHub'
+repo_url: 'https://github.com/20centaurifux/efind'
+
+extra:
+        logo: 'img/logo.png'
+        author:
+                github: '20centaurifux'
+        palette:
+            primary: 'blue grey'
+            accent: 'light blue'
