@@ -18,11 +18,59 @@ self-explanatory expression syntax:
 $ efind . '(name="*.h" or name="*.c") and type=file and writable and mtime<2 days'
 ```
 
-**efind** extensions make it possible to filter search results by details like
-audio tags and properties:
+Additionally **efind** extensions make it possible to filter search results by details
+like audio tags and properties:
 
 ```
-$ efind ~/music 'iname="*.mp3" and artist_matches("David Bowie") and audio_length()>200'
+$ efind ~/music 'name="*.mp3" \
+  and artist_matches("David Bowie") and audio_length()>200'
+```
+
+## Differences to GNU find
+
+Sometimes GNU find doesn't behave in a way an average user would expect. The following
+expression finds all documents in the current folder with a file size less or equal than
+1G because every file with at least one byte is rounded up:
+
+```
+$ find . -size 1G
+```
+
+**efind** converts file sizes to byte to avoid this confusing behaviour:
+
+```
+$ efind . "size=1G" --print
+$ find . -size 1073741824c
+```
+
+## Usage
+
+Running **efind** without any argument the search expression is read from *stdin*
+and files are searched in the user's home directory. A different directory and
+expression can be specified with the *--dir* and *--expr* options:
+
+```
+$ efind --dir=/tmp --expr="size>1M and type=file"
+```
+
+**efind** tries to handle the first two arguments as path and expression. It's
+valid to run **efind** the following way:
+
+```
+$ efind ~/foobar "type=dir"
+```
+
+If you want to show the translated arguments without running GNU find use the
+*--print* option. To quote special shell characters append *--quote*:
+
+```
+$ efind ~/tmp/foo 'iname="*.py" and (mtime<30 days or size>=1M)' --print --quote
+```
+
+**efind** is shipped with a manpage, of course.
+
+```
+$ man efind
 ```
 
 ## Expression Syntax
@@ -81,42 +129,12 @@ Additionally you can test these flags:
 | writable   | the user can write to the file          |
 | executable | the user is allowed to execute the file |
 
-## Usage
-
-Running **efind** without any argument the search expression is read from *stdin*
-and files are searched in the user's home directory. A different directory and
-expression can be specified with the *--dir* and *--expr* options:
-
-```
-$ efind --dir=/tmp --expr="size>1M and type=file"
-```
-
-**efind** tries to handle the first two arguments as path and expression. It's
-valid to run **efind** the following way:
-
-```
-$ efind ~ "type=dir" --follow
-```
-
-If you want to show the translated arguments without running GNU find use the
-*--print* option. To quote special shell characters append *--quote*:
-
-```
-$ efind ~/tmp/foo 'iname="*.py" and (mtime<30 days or size>=1M)' --print --quote
-```
-
-**efind** is shipped with a manpage, of course.
-
-```
-$ man efind
-```
-
 ## Extensions
 
 Extensions are custom functions used to filter find results. A function can
 have optional arguments and returns always an integer. Non-zero values evaluate to true.
 
-Extensions can only be used *after* the find expression. 
+You are only allowed to use extensions *after* the find expression. 
 
 At the current stage **efind** supports functions loaded from shared libraries.
 It's planned to support scripting languages like [Python](https://www.python.org/)
@@ -160,3 +178,11 @@ If your system is prepared you can compile and install **efind**:
 $ cd efind
 $ make && sudo make install
 ```
+
+## Planned features
+
+* scripting support (e.g. Python) for custom functions
+* extension blacklist (to avoid naming clashes with globally installed extensions)
+* optional caching of find results
+* sorting support
+* support for grouping results
