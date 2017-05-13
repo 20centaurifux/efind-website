@@ -63,7 +63,7 @@ print "#Downloads\n"
 print "You can use my GnuPG key (73E7 DEB2) to verify downloaded packages. If you don't trust me please build efind on your own. I wouldn't download binaries from an unknown website :)"
 
 print "##efind\n"
-generate_table("efind", "0.1.0")
+generate_table("efind", "0.1.1")
 
 print "\n##taglib extension\n\nFilter search results by audio tags and properties.\n"
 generate_table("efind-taglib", "0.1.0")
