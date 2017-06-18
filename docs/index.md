@@ -8,39 +8,22 @@ Basically it's a wrapper for [GNU find](https://www.gnu.org/software/findutils/)
 providing an easier and more intuitive expression syntax. It can be extended
 by custom functions to filter search results.
 
-## Examples
+## A quick example
 
-Let's assume you want to find all writable source and header files of a C project
-that were modified less than two days ago. That's no problem with **efind's**
-self-explanatory expression syntax:
-
-```
-$ efind . '(name="*.h" or name="*.c") and type=file and writable and mtime<2 days'
-```
-
-Additionally **efind** extensions make it possible to filter search results by details
-like audio tags and properties:
+Let's assume you want to find all mp3 (\*.mp3) and ogg vorbis (\*.ogg) files
+that were modified less than two days ago in your music folder. That's no
+problem with **efind's** self-explanatory expression syntax:
 
 ```
-$ efind ~/music 'name="*.mp3" \
-  and artist_matches("David Bowie") and audio_length()>200'
+$ efind ~/music '(name="*.mp3" or name="*.ogg") and mtime<2 days'
 ```
 
-## Differences to GNU find
-
-Sometimes GNU find doesn't behave in a way an average user would expect. The following
-expression finds all documents in the current folder with a file size less or equal than
-1G because every file with at least one byte is rounded up:
+Additionally you can filter the search result by audio tags and properties with
+the [taglib](https://github.com/20centaurifux/efind-taglib) extension:
 
 ```
-$ find . -size 1G
-```
-
-**efind** converts file sizes to byte to avoid this confusing behaviour:
-
-```
-$ efind . "size=1G" --print
-$ find . -size 1073741824c
+$ efind ~/music '(name="*.mp3" or name="*.ogg") and mtime<2 days \
+  and artist_matches("Welle: Erdball") and audio_length()>200'
 ```
 
 ## Usage
@@ -57,14 +40,14 @@ $ efind --dir=/tmp --expr="size>1M and type=file"
 valid to run **efind** the following way:
 
 ```
-$ efind ~/foobar "type=dir"
+$ efind ~/git 'type=file and name="CHANGELOG"'
 ```
 
 If you want to show the translated arguments without running GNU find use the
 *--print* option. To quote special shell characters append *--quote*:
 
 ```
-$ efind ~/tmp/foo 'iname="*.py" and (mtime<30 days or size>=1M)' --print --quote
+$ efind . 'iregex=".*\.txt" and writable' --print --quote
 ```
 
 **efind** is shipped with a manpage, of course.
@@ -100,26 +83,28 @@ A value must be of one of the data types listed below:
 | Type          | Description                                                                                                            |
 | :------------ | :--------------------------------------------------------------------------------------------------------------------- |
 | string        | Quoted sequence of characters.                                                                                         |
-| number        | Natural number.                                                                                                        |
+| number        | Whole number.                                                                                                          |
 | time interval | Time interval (number) with suffix. Supported suffixes are "minute(s)", "hour(s)" and "day(s)".                        |
 | file size     | Units of space (number) with suffix. Supported suffixes are "byte(s)", "kilobyte(s)", "megabyte(s)" and "gigabyte(s)". |
 | file type     | "file", "directory", "block", "character", "pipe", "link" or "socket".                                                 |
 
 The following file attributes are searchable:
 
-| Attribute | Description                       | Type            | Example     |
-| :-------- | :-------------------------------- | :-------------- | :---------- |
-| name      | case sensitive filename pattern   | string          | "*.txt"     |
-| iname     | case insensitive filename pattern | string          | "Foo.bar"   |
-| atime     | last access time                  | time interval   | 1 minute    |
-| ctime     | last file status change           | time interval   | 15 hours    |
-| mtime     | last modification time            | time interval   | 30 days     |
-| size      | file size                         | size            | 10 megabyte |
-| group     | name of the group owning the file | string          | "users"     |
-| gid       | id of the group owning the file   | number          | 1000        |
-| user      | name of the user owning the file  | string          | "john"      |
-| uid       | id of the user owning the file    | number          | 1000        |
-| type      | file type                         | file type       | pipe        |
+| Attribute | Description                         | Type            | Example     |
+| :-------- | :---------------------------------- | :-------------- | :---------- |
+| name      | case sensitive filename pattern     | string          | "*.txt"     |
+| iname     | case insensitive filename pattern   | string          | "Foo.bar"   |
+| regex     | case sensitive regular expression   | string          | ".*\\.html" |
+| iregex    | case insensitive regular expression | string          | ".*\\.TxT"  |
+| atime     | last access time                    | time interval   | 1 minute    |
+| ctime     | last file status change             | time interval   | 15 hours    |
+| mtime     | last modification time              | time interval   | 30 days     |
+| size      | file size                           | size            | 10 megabyte |
+| group     | name of the group owning the file   | string          | "users"     |
+| gid       | id of the group owning the file     | number          | 1000        |
+| user      | name of the user owning the file    | string          | "john"      |
+| uid       | id of the user owning the file      | number          | 1000        |
+| type      | file type                           | file type       | pipe        |
 
 Additionally you can test these flags:
 
@@ -129,60 +114,43 @@ Additionally you can test these flags:
 | writable   | the user can write to the file          |
 | executable | the user is allowed to execute the file |
 
-## Extensions
+## Differences to GNU find
 
-Extensions are custom functions used to filter find results. A function can
-have optional arguments and returns always an integer. Non-zero values evaluate to true.
-
-You are only allowed to use extensions *after* the find expression. 
-
-At the current stage **efind** supports functions loaded from shared libraries.
-It's planned to support scripting languages like [Python](https://www.python.org/)
-or [GNU Guile](https://www.gnu.org/software/guile/) in the future.
-
-To print a list with available functions found in all installed extensions run
+Sometimes GNU find doesn't behave in a way an average user would expect. The following
+expression finds all documents in the current folder with a file size less or equal than
+1G because every file with at least one byte is rounded up:
 
 ```
-$ efind --list-extensions
+$ find . -size 1G
 ```
+
+**efind** converts file sizes to byte to avoid this confusing behaviour:
+
+```
+$ efind . "size=1G" --print
+$ find . -size 1073741824c
+```
+
+**efind's** *--printf* option is not fully compatible with GNU find:
+
+* In contrast to GNU find numeric values like file size or group id are *not* converted
+  to string. This means that all number related flags work with **efind**.
+* Width and precision are interpreted *exactly* the same way as the printf C function does.
+* The fields %a, %c and %t are not available. To print a date string in the
+  format returned by the *ctime* C function use %A, %C or %T *without* a format string.
+* Date format strings are not limited to a single field. The string "%AHMS" prints hour,
+  minute and second of the last file access, for example.
+* When printing an undefined escape sequence (e.g. "\P") only the character is printed, not the backslash.
 
 ## Getting efind
 
-You can [build](#build-from-source) **efind** from source code or [download](/downloads)
+You can [build](/howto-build) **efind** from source code or [download](/downloads)
 a package for your distribution. If you should miss a package type or if you want to
 support **efind** don't hesitate to [contact](/contact) me. Any help is
 much appreciated :)
 
-## Build from source
-
-**efind** uses [GNU Make](https://www.gnu.org/software/make/) as build system.
-Installation options can be customized in the Makefile.
-
-Please ensure that [GNU Bison](https://www.gnu.org/software/bison/) and
-[GNU Flex](https://www.gnu.org/software/flex/) is installed on your system before
-you build **efind**.
-
-If you want to install all dependencies on a Debian based distribution and checkout
-the source code type in the following commands:
-
-```
-$ sudo apt-get install build-essential git bison flex
-$ git clone --recursive https://github.com/20centaurifux/efind.git
-```
-
-On other distributions the required packages may have different names.
-
-If your system is prepared you can compile and install **efind**:
-
-```
-$ cd efind
-$ make && sudo make install
-```
 
 ## Planned features
 
-* scripting support (e.g. Python) for custom functions
-* extension blacklist (to avoid naming clashes with globally installed extensions)
-* optional caching of find results
-* sorting support
-* support for grouping results
+* not operator
+* sort find results

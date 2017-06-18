@@ -10,6 +10,8 @@ pages:
     - Changelog: changelog.md
     - Downloads: downloads.md
     - Extensions: extensions.md
+    - Building efind: howto-build.md
+    - Writing extensions: howto-extensions.md
     - Contact: contact.md
     - Imprint: imprint.md
 
