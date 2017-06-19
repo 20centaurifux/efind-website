@@ -10,51 +10,40 @@ by custom functions to filter search results.
 
 ## A quick example
 
-Let's assume you want to find all mp3 (\*.mp3) and ogg vorbis (\*.ogg) files
+Let's assume you want to find all MP3 (\*.mp3) and Ogg Vorbis (\*.ogg) files
 that were modified less than two days ago in your music folder. That's no
 problem with **efind's** self-explanatory expression syntax:
 
-```
-$ efind ~/music '(name="*.mp3" or name="*.ogg") and mtime<2 days'
-```
+	$ efind ~/music '(name="*.mp3" or name="*.ogg") and mtime<2 days'
 
 Additionally you can filter the search result by audio tags and properties with
 the [taglib](https://github.com/20centaurifux/efind-taglib) extension:
 
-```
-$ efind ~/music '(name="*.mp3" or name="*.ogg") and mtime<2 days \
-  and artist_matches("Welle: Erdball") and audio_length()>200'
-```
+	$ efind ~/music '(name="*.mp3" or name="*.ogg") and mtime<2 days \
+	  and artist_matches("Welle: Erdball") and audio_length()>200'
 
 ## Usage
 
-Running **efind** without any argument the search expression is read from *stdin*
-and files are searched in the user's home directory. A different directory and
-expression can be specified with the *--dir* and *--expr* options:
+Running **efind** without any argument the search expression is read from
+*standard input (stdin)* and files are searched in the user's home directory.
+A different directory and expression can be specified with the *--dir*
+and *--expr* options:
 
-```
-$ efind --dir=/tmp --expr="size>1M and type=file"
-```
+	$ efind --dir=/tmp --expr="size>1M and type=file"
 
 **efind** tries to handle the first two arguments as path and expression. It's
 valid to run **efind** the following way:
 
-```
-$ efind ~/git 'type=file and name="CHANGELOG"'
-```
+	$ efind ~/git 'type=file and name="CHANGELOG"'
 
 If you want to show the translated arguments without running GNU find use the
 *--print* option. To quote special shell characters append *--quote*:
 
-```
-$ efind . 'iregex=".*\.txt" and writable' --print --quote
-```
+	$ efind . 'iregex=".*\.txt" and writable' --print --quote
 
 **efind** is shipped with a manpage, of course.
 
-```
-$ man efind
-```
+	$ man efind
 
 ## Expression Syntax
 
@@ -118,29 +107,26 @@ Additionally you can test these flags:
 
 Sometimes GNU find doesn't behave in a way an average user would expect. The following
 expression finds all documents in the current folder with a file size less or equal than
-1G because every file with at least one byte is rounded up:
+1G because every file with at least *one byte* is rounded up:
 
-```
-$ find . -size 1G
-```
+	$ find . -size 1G
 
 **efind** converts file sizes to byte to avoid this confusing behaviour:
 
-```
-$ efind . "size=1G" --print
-$ find . -size 1073741824c
-```
+	$ efind . "size=1G" --print
+	$ find . -size 1073741824c
 
 **efind's** *--printf* option is not fully compatible with GNU find:
 
 * In contrast to GNU find numeric values like file size or group id are *not* converted
   to string. This means that all number related flags work with **efind**.
-* Width and precision are interpreted *exactly* the same way as the printf C function does.
+* Width and precision are interpreted *exactly the same way* as the printf C function does.
 * The fields %a, %c and %t are not available. To print a date string in the
-  format returned by the *ctime* C function use %A, %C or %T *without* a format string.
+  format returned by the "ctime" C function use %A, %C or %T without a format string.
 * Date format strings are not limited to a single field. The string "%AHMS" prints hour,
   minute and second of the last file access, for example.
-* When printing an undefined escape sequence (e.g. "\P") only the character is printed, not the backslash.
+* When printing an undefined escape sequence (e.g. "\P") only the character following the
+  backslash is printed.
 
 ## Getting efind
 
@@ -154,3 +140,4 @@ much appreciated :)
 
 * not operator
 * sort find results
+* more detailed logging and error reporting
