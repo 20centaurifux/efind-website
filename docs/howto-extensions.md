@@ -8,7 +8,7 @@ The first parameter (*extension*) is a string that specifies the extension we're
 
 ## Writing extensions in C
 
-To make all required types and function prototypes available include the [extension-interface header](https://github.com/20centaurifux/efind/blob/master/extension-interface.h) into your source file. In this tutorial we create a file named "c-example.c":
+To make all required types and function prototypes available include the [extension-interface header](https://github.com/20centaurifux/efind/blob/master/extension-interface.h) in your source file. In this tutorial we create a file named "c-example.c":
 
 	$ mkdir c-example && cd ./c-example
 	$ wget https://raw.githubusercontent.com/20centaurifux/efind/master/extension-interface.h
@@ -16,15 +16,13 @@ To make all required types and function prototypes available include the [extens
 
 At first you should implement the "registration" function to make the extension available. Please specify name, version and a brief description by calling the given registration callback:
 
-```
-void
-registration(RegistrationCtx *ctx, RegisterExtension fn)
-{
-	fn(ctx, "example extension", "0.1.0", "An example extension written in C.");
-}
-```
+	void
+	registration(RegistrationCtx *ctx, RegisterExtension fn)
+	{
+		fn(ctx, "example extension", "0.1.0", "An example extension written in C.");
+	}
 
-The "discover" function exports the provided custom functions. Please specify name, number of parameters and parameter types.  Parameters can be strings or integers.
+The "discover" function exports the custom filter functions you want to provide in your extension. Please specify name, number of parameters and parameter types.  Parameters can be strings or integers.
 
 	void
 	discover(RegistrationCtx *ctx, RegisterCallback fn)
@@ -121,7 +119,7 @@ The *EXTENSION_EXPORT* array exports your custom function(s) to **efind**:
 
 	EXTENSION_EXPORT=[py_check_extension]
 
-After copying the script into your local extension folder (*~/.efind/extensions*) the custom function is available in **efind**:
+After copying the script into your local extension folder (*~/.efind/extensions*) the custom filter function is available in **efind**:
 
 	$ efind . 'py_check_extension(".py", 1)'
 
