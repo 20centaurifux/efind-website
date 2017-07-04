@@ -66,3 +66,11 @@ Ubuntu 16.04 (64-bit)|[efind-gdkpixbuf_0.1-2_amd64.deb](downloads/ubuntu-16.04/e
 Ubuntu 16.04 (32-bit)|[efind-gdkpixbuf_0.1-2_i386.deb](downloads/ubuntu-16.04/efind-gdkpixbuf_0.1-2_i386.deb)|2d3bfd8109797412696c8770d379108e|[Signature](downloads/ubuntu-16.04/efind-gdkpixbuf_0.1-2_i386.deb.asc)
 Ubuntu 17.04 (64-bit)|[efind-gdkpixbuf_0.1-2_amd64.deb](downloads/ubuntu-17.04/efind-gdkpixbuf_0.1-2_amd64.deb)|f2313bc3d50d7e3745e8e936d4aa0dea|[Signature](downloads/ubuntu-17.04/efind-gdkpixbuf_0.1-2_amd64.deb.asc)
 Ubuntu 17.04 (32-bit)|[efind-gdkpixbuf_0.1-2_i386.deb](downloads/ubuntu-17.04/efind-gdkpixbuf_0.1-2_i386.deb)|d5f661a16a142c3491f5afa1cfafee17|[Signature](downloads/ubuntu-17.04/efind-gdkpixbuf_0.1-2_i386.deb.asc)
+
+##py-path extension
+
+Filter search results by file extension and mime-type.
+
+| Download | Link | MD5 | GPG |
+| :------- | :--- | :-- | :-- |
+|Script|[efind-py-path-0.1.0.tar.gz](downloads/source/efind-py-path-0.1.0.tar.gz)|0c22e28fa5eabc8a37e6a573940597ed|[Signature](downloads/source/efind-py-path-0.1.0.tar.gz.asc)
