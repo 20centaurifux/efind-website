@@ -1,3 +1,12 @@
+## 2017-07-04 - version 0.2.1
+
+* FEATURE: --log-level option to enable logging with different verbosities
+* FEATURE: --enable-log-color option to print colored log messages
+* FEATURE: "empty" flag to test if a regular file or directory is empty
+* FEATURE: "filesystem" property to test the filesystem a file is on
+* CHANGE: renamed --maxdepth option to --max-depth
+* FIX: initialize all getline() parameters properly when reading from standard input
+
 ## 2017-06-24 - version 0.2.0 (Jean Malaurie)
 
 * FEATURE: Python 2 support for extensions

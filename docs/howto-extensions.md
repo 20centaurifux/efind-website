@@ -124,3 +124,38 @@ After copying the script into your local extension folder (*~/.efind/extensions*
 	$ efind . 'py_check_extension(".py", 1)'
 
 You find this example in the [examples](https://github.com/20centaurifux/efind/tree/master/examples/python) folder.
+
+## Debugging
+
+Since version 0.2.1 **efind** supports logging. There are 6 different log levels available:
+
+| Level  | Description                                |
+| :----- | :----------------------------------------- |
+| 1      | log only fatal errors                      |
+| 2      | log all errors                             |
+| 3      | log errors and warnings                    |
+| 4      | log error, warnings and messages           |
+| 5      | enable debugging                           |
+| 6      | enable tracing (very detailed information) |
+
+A log message consists of the following fields:
+
+* log level (TRACE, DEBUG, INFO, WARNING, ERROR, FATAL)
+* timestamp
+* domain
+* source file
+* function name
+* line in the source file
+* message
+
+When developing your own extension you can use **efind's** logging capabilities to debug issues. Let's assume you write an extension in Python and you forget to export the filter functions. This problem can easily be detected by enabling logging and filtering the output with grep:
+
+	$ efind --list-extensions --log-level=5 | grep -E "<python>|<extension>"
+	$ DEBUG Thu Jun 29 19:41:12 2017 <extension> ./extension.c, _extension_manager_extension_registered(), line 262 => Extension registered: name=example extension, version=0.1.0, description=An example extension written in Python.
+	$ DEBUG Thu Jun  19:41:12 2017 <python> ./py-ext-backend.c, _py_ext_discover(), line 424 => Couldn't find sequence `EXTENSION_EXPORT'.
+
+As you may notice, the TRACE log level produces a lot of messages. Usually the DEBUG log level is sufficient for debugging purposes.
+
+To distinguish between the different message types you can turn on colors:
+
+	$ efind . --log-level=6 --enable-log-color --list-extensions
