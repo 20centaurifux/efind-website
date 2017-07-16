@@ -26,7 +26,9 @@ Extensions can be installed globally in */etc/efind/extensions* or locally in *~
 
 	/etc/efind/extensions/*
 
-Lines starting with an hash (#) are ignored.
+Lines starting with an hash (#) are ignored. To display blacklisted extensions type in
+
+	$ efind --show-blacklist
 
 ## Available extensions
 

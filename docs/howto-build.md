@@ -5,14 +5,14 @@ Installation options can be customized in the Makefile.
 
 Please ensure that [GNU Bison](https://www.gnu.org/software/bison/),
 [GNU Flex](https://www.gnu.org/software/flex/), [Python 2.7](https://www.python.org/)
-and [GNU libffcall](https://www.gnu.org/software/libffcall/) are installed on your
+and [libffi](https://sourceware.org/libffi/) are installed on your
 system before you build **efind**.
 
 If you want to install all dependencies on a Debian based distribution and checkout
 the source code type in the following commands:
 
 ```
-$ sudo apt-get install build-essential git bison flex libpython2.7-dev libffcall1-dev
+$ sudo apt-get install build-essential git bison flex libpython2.7-dev libffi-dev
 $ git clone --recursive https://github.com/20centaurifux/efind.git
 ```
 
