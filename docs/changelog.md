@@ -1,7 +1,7 @@
 ## 2017-07-16 - version 0.2.2
 
 * FEATURE: --show-blacklist option to print blacklisted extensions
-* CHANGE: replaced libavcall with libffcall
+* CHANGE: replaced libavcall with libffi
 
 ## 2017-07-04 - version 0.2.1
 
