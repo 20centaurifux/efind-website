@@ -19,6 +19,8 @@ def build_download_name(name, filename):
 		name = "CentOS 7"
 	elif name == "debian-8":
 		name = "Debian 8"
+	elif name == "debian-9":
+		name = "Debian 9"
 	elif name == "fedora-25":
 		name = "Fedora 25"
 	elif name == "opensuse-leap":
@@ -42,8 +44,13 @@ def generate_rows(subfolder, pkg, version):
 		prefix0 = "%s-%s" % (pkg, version)
 		prefix1 = "%s_%s" % (pkg, version)
 
+                offset = 0
+
+                if pkg != "efind":
+                    offset += 1
+
 		pos = prefix1.rfind('.')
-		prefix1 = "%s-%d" % (prefix1[:pos], int(prefix1[pos + 1:]) + 1)
+		prefix1 = "%s-%d" % (prefix1[:pos], int(prefix1[pos + 1:]) + offset)
 
 		if (filename.startswith(prefix0) or filename.startswith(prefix1)) and not filename.endswith(".asc"):
 			print "%s|[%s](downloads/%s/%s)|%s|[Signature](downloads/%s/%s.asc)" % (build_download_name(subfolder, filename), filename, subfolder, filename, md5("docs/downloads/%s/%s" % (subfolder, filename)), subfolder, filename)
@@ -58,15 +65,16 @@ def generate_table(pkg, version):
 		if filename <> "source":
 			generate_rows(filename, pkg, version)
 
-print "#Downloads\n"
-
-print "You can use my GnuPG key (73E7 DEB2) to verify downloaded packages. If you don't trust me please build efind on your own. I wouldn't download binaries from an unknown website :)"
+with open("downloads.head.md") as f:
+    print f.read()
 
 print "##efind\n"
-generate_table("efind", "0.1.1")
+generate_table("efind", "0.2.2")
 
 print "\n##taglib extension\n\nFilter search results by audio tags and properties.\n"
-generate_table("efind-taglib", "0.1.0")
+generate_table("efind-taglib", "0.1.1")
 
 print "\n##gdkpixbuf extension\n\nFilter search results by image properties.\n"
-generate_table("efind-gdkpixbuf", "0.1.0")
+generate_table("efind-gdkpixbuf", "0.1.1")
+with open("downloads.tail.md") as f:
+    print f.read()
