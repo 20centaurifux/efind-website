@@ -71,10 +71,11 @@ with open("downloads.head.md") as f:
 print "##efind\n"
 generate_table("efind", "0.2.2")
 
+print "\n##gdkpixbuf extension\n\nFilter search results by image properties.\n"
+generate_table("efind-gdkpixbuf", "0.1.1")
+
 print "\n##taglib extension\n\nFilter search results by audio tags and properties.\n"
 generate_table("efind-taglib", "0.1.1")
 
-print "\n##gdkpixbuf extension\n\nFilter search results by image properties.\n"
-generate_table("efind-gdkpixbuf", "0.1.1")
 with open("downloads.tail.md") as f:
-    print f.read()
+    print "\n%s" % f.read()

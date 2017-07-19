@@ -1,6 +1,7 @@
 #Downloads
 
 You can use my [GnuPG key](http://dixieflatline.de/sebastian_at_dixieflatline.de.asc.txt) to verify downloaded packages. If you don't trust me please build efind on your own. I wouldn't download binaries from an unknown website :)
+
 ##efind
 
 | Download | Link | MD5 | GPG |
@@ -21,28 +22,6 @@ Ubuntu 16.04 (64-bit)|[efind_0.2-2_amd64.deb](downloads/ubuntu-16.04/efind_0.2-2
 Ubuntu 16.04 (32-bit)|[efind_0.2-2_i386.deb](downloads/ubuntu-16.04/efind_0.2-2_i386.deb)|35399f43532c6eadf914976f9cfa3e13|[Signature](downloads/ubuntu-16.04/efind_0.2-2_i386.deb.asc)
 Ubuntu 17.04 (64-bit)|[efind_0.2-2_amd64.deb](downloads/ubuntu-17.04/efind_0.2-2_amd64.deb)|a888a3c363dc33c268f915f7c3c4a684|[Signature](downloads/ubuntu-17.04/efind_0.2-2_amd64.deb.asc)
 Ubuntu 17.04 (32-bit)|[efind_0.2-2_i386.deb](downloads/ubuntu-17.04/efind_0.2-2_i386.deb)|a149ce034058da6b947df4b11cf8e74a|[Signature](downloads/ubuntu-17.04/efind_0.2-2_i386.deb.asc)
-
-##taglib extension
-
-Filter search results by audio tags and properties.
-
-| Download | Link | MD5 | GPG |
-| :------- | :--- | :-- | :-- |
-Source code|[efind-taglib-0.1.1.tar.xz](downloads/source/efind-taglib-0.1.1.tar.xz)|adeeb2d9e935e88fe736c64ed6ea0776|[Signature](downloads/source/efind-taglib-0.1.1.tar.xz.asc)
-Arch (64-bit)|[efind-taglib-0.1.1-1-x86_64.pkg.tar.xz](downloads/arch/efind-taglib-0.1.1-1-x86_64.pkg.tar.xz)|27ea65fcfa8c7035b46298073e4aee8b|[Signature](downloads/arch/efind-taglib-0.1.1-1-x86_64.pkg.tar.xz.asc)
-CentOS 7 (64-bit)|[efind-taglib-0.1.1-1.el7.centos.x86_64.rpm](downloads/centos-7/efind-taglib-0.1.1-1.el7.centos.x86_64.rpm)|601137dac9d81bb6f74507be5e850723|[Signature](downloads/centos-7/efind-taglib-0.1.1-1.el7.centos.x86_64.rpm.asc)
-Debian 8 (64-bit)|[efind-taglib_0.1-2_amd64.deb](downloads/debian-8/efind-taglib_0.1-2_amd64.deb)|7ce8f239465134ceb42863d897c29699|[Signature](downloads/debian-8/efind-taglib_0.1-2_amd64.deb.asc)
-Debian 8 (32-bit)|[efind-taglib_0.1-2_i386.deb](downloads/debian-8/efind-taglib_0.1-2_i386.deb)|3f25c0aed6dc383b3bcc42be4bb97eba|[Signature](downloads/debian-8/efind-taglib_0.1-2_i386.deb.asc)
-Debian 9 (64-bit)|[efind-taglib_0.1-2_amd64.deb](downloads/debian-9/efind-taglib_0.1-2_amd64.deb)|35153d67e5a379be8a7faf4ca977468d|[Signature](downloads/debian-9/efind-taglib_0.1-2_amd64.deb.asc)
-Debian 9 (32-bit)|[efind-taglib_0.1-2_i386.deb](downloads/debian-9/efind-taglib_0.1-2_i386.deb)|50a414b27f661e41e83ab5ea5e42f580|[Signature](downloads/debian-9/efind-taglib_0.1-2_i386.deb.asc)
-Fedora 25 (32-bit)|[efind-taglib-0.1.1-1.fc25.i686.rpm](downloads/fedora-25/efind-taglib-0.1.1-1.fc25.i686.rpm)|4979d23aa6c293ea65867ee8098d2c7c|[Signature](downloads/fedora-25/efind-taglib-0.1.1-1.fc25.i686.rpm.asc)
-Fedora 25 (64-bit)|[efind-taglib-0.1.1-1.fc25.x86_64.rpm](downloads/fedora-25/efind-taglib-0.1.1-1.fc25.x86_64.rpm)|98eb93c110a3e484ed77820081c2a419|[Signature](downloads/fedora-25/efind-taglib-0.1.1-1.fc25.x86_64.rpm.asc)
-Slackware 14.2 (32-bit)|[efind-taglib-0.1.1-i586-1_bbsb.txz](downloads/slackware-14.2/efind-taglib-0.1.1-i586-1_bbsb.txz)|9efb44f69f018b99e71636a1d5f8f9df|[Signature](downloads/slackware-14.2/efind-taglib-0.1.1-i586-1_bbsb.txz.asc)
-Slackware 14.2 (64-bit)|[efind-taglib-0.1.1-x86_64-1_bbsb.txz](downloads/slackware-14.2/efind-taglib-0.1.1-x86_64-1_bbsb.txz)|36adeb12e171583d970ea3620e6a0795|[Signature](downloads/slackware-14.2/efind-taglib-0.1.1-x86_64-1_bbsb.txz.asc)
-Ubuntu 16.04 (64-bit)|[efind-taglib_0.1-2_amd64.deb](downloads/ubuntu-16.04/efind-taglib_0.1-2_amd64.deb)|84072c427875b64b87594ca8100d4aa3|[Signature](downloads/ubuntu-16.04/efind-taglib_0.1-2_amd64.deb.asc)
-Ubuntu 16.04 (32-bit)|[efind-taglib_0.1-2_i386.deb](downloads/ubuntu-16.04/efind-taglib_0.1-2_i386.deb)|a5a6e31de67cc6a4c48ccba03e3c976d|[Signature](downloads/ubuntu-16.04/efind-taglib_0.1-2_i386.deb.asc)
-Ubuntu 17.04 (64-bit)|[efind-taglib_0.1-2_amd64.deb](downloads/ubuntu-17.04/efind-taglib_0.1-2_amd64.deb)|f63f02d28f41f03c00feb3d310670f89|[Signature](downloads/ubuntu-17.04/efind-taglib_0.1-2_amd64.deb.asc)
-Ubuntu 17.04 (32-bit)|[efind-taglib_0.1-2_i386.deb](downloads/ubuntu-17.04/efind-taglib_0.1-2_i386.deb)|57ca8768d3b64f3fc64bd020eecc3759|[Signature](downloads/ubuntu-17.04/efind-taglib_0.1-2_i386.deb.asc)
 
 ##gdkpixbuf extension
 
@@ -67,6 +46,28 @@ Ubuntu 16.04 (32-bit)|[efind-gdkpixbuf_0.1-2_i386.deb](downloads/ubuntu-16.04/ef
 Ubuntu 17.04 (64-bit)|[efind-gdkpixbuf_0.1-2_amd64.deb](downloads/ubuntu-17.04/efind-gdkpixbuf_0.1-2_amd64.deb)|f2313bc3d50d7e3745e8e936d4aa0dea|[Signature](downloads/ubuntu-17.04/efind-gdkpixbuf_0.1-2_amd64.deb.asc)
 Ubuntu 17.04 (32-bit)|[efind-gdkpixbuf_0.1-2_i386.deb](downloads/ubuntu-17.04/efind-gdkpixbuf_0.1-2_i386.deb)|d5f661a16a142c3491f5afa1cfafee17|[Signature](downloads/ubuntu-17.04/efind-gdkpixbuf_0.1-2_i386.deb.asc)
 
+##taglib extension
+
+Filter search results by audio tags and properties.
+
+| Download | Link | MD5 | GPG |
+| :------- | :--- | :-- | :-- |
+Source code|[efind-taglib-0.1.1.tar.xz](downloads/source/efind-taglib-0.1.1.tar.xz)|adeeb2d9e935e88fe736c64ed6ea0776|[Signature](downloads/source/efind-taglib-0.1.1.tar.xz.asc)
+Arch (64-bit)|[efind-taglib-0.1.1-1-x86_64.pkg.tar.xz](downloads/arch/efind-taglib-0.1.1-1-x86_64.pkg.tar.xz)|27ea65fcfa8c7035b46298073e4aee8b|[Signature](downloads/arch/efind-taglib-0.1.1-1-x86_64.pkg.tar.xz.asc)
+CentOS 7 (64-bit)|[efind-taglib-0.1.1-1.el7.centos.x86_64.rpm](downloads/centos-7/efind-taglib-0.1.1-1.el7.centos.x86_64.rpm)|601137dac9d81bb6f74507be5e850723|[Signature](downloads/centos-7/efind-taglib-0.1.1-1.el7.centos.x86_64.rpm.asc)
+Debian 8 (64-bit)|[efind-taglib_0.1-2_amd64.deb](downloads/debian-8/efind-taglib_0.1-2_amd64.deb)|7ce8f239465134ceb42863d897c29699|[Signature](downloads/debian-8/efind-taglib_0.1-2_amd64.deb.asc)
+Debian 8 (32-bit)|[efind-taglib_0.1-2_i386.deb](downloads/debian-8/efind-taglib_0.1-2_i386.deb)|3f25c0aed6dc383b3bcc42be4bb97eba|[Signature](downloads/debian-8/efind-taglib_0.1-2_i386.deb.asc)
+Debian 9 (64-bit)|[efind-taglib_0.1-2_amd64.deb](downloads/debian-9/efind-taglib_0.1-2_amd64.deb)|35153d67e5a379be8a7faf4ca977468d|[Signature](downloads/debian-9/efind-taglib_0.1-2_amd64.deb.asc)
+Debian 9 (32-bit)|[efind-taglib_0.1-2_i386.deb](downloads/debian-9/efind-taglib_0.1-2_i386.deb)|50a414b27f661e41e83ab5ea5e42f580|[Signature](downloads/debian-9/efind-taglib_0.1-2_i386.deb.asc)
+Fedora 25 (32-bit)|[efind-taglib-0.1.1-1.fc25.i686.rpm](downloads/fedora-25/efind-taglib-0.1.1-1.fc25.i686.rpm)|4979d23aa6c293ea65867ee8098d2c7c|[Signature](downloads/fedora-25/efind-taglib-0.1.1-1.fc25.i686.rpm.asc)
+Fedora 25 (64-bit)|[efind-taglib-0.1.1-1.fc25.x86_64.rpm](downloads/fedora-25/efind-taglib-0.1.1-1.fc25.x86_64.rpm)|98eb93c110a3e484ed77820081c2a419|[Signature](downloads/fedora-25/efind-taglib-0.1.1-1.fc25.x86_64.rpm.asc)
+Slackware 14.2 (32-bit)|[efind-taglib-0.1.1-i586-1_bbsb.txz](downloads/slackware-14.2/efind-taglib-0.1.1-i586-1_bbsb.txz)|9efb44f69f018b99e71636a1d5f8f9df|[Signature](downloads/slackware-14.2/efind-taglib-0.1.1-i586-1_bbsb.txz.asc)
+Slackware 14.2 (64-bit)|[efind-taglib-0.1.1-x86_64-1_bbsb.txz](downloads/slackware-14.2/efind-taglib-0.1.1-x86_64-1_bbsb.txz)|36adeb12e171583d970ea3620e6a0795|[Signature](downloads/slackware-14.2/efind-taglib-0.1.1-x86_64-1_bbsb.txz.asc)
+Ubuntu 16.04 (64-bit)|[efind-taglib_0.1-2_amd64.deb](downloads/ubuntu-16.04/efind-taglib_0.1-2_amd64.deb)|84072c427875b64b87594ca8100d4aa3|[Signature](downloads/ubuntu-16.04/efind-taglib_0.1-2_amd64.deb.asc)
+Ubuntu 16.04 (32-bit)|[efind-taglib_0.1-2_i386.deb](downloads/ubuntu-16.04/efind-taglib_0.1-2_i386.deb)|a5a6e31de67cc6a4c48ccba03e3c976d|[Signature](downloads/ubuntu-16.04/efind-taglib_0.1-2_i386.deb.asc)
+Ubuntu 17.04 (64-bit)|[efind-taglib_0.1-2_amd64.deb](downloads/ubuntu-17.04/efind-taglib_0.1-2_amd64.deb)|f63f02d28f41f03c00feb3d310670f89|[Signature](downloads/ubuntu-17.04/efind-taglib_0.1-2_amd64.deb.asc)
+Ubuntu 17.04 (32-bit)|[efind-taglib_0.1-2_i386.deb](downloads/ubuntu-17.04/efind-taglib_0.1-2_i386.deb)|57ca8768d3b64f3fc64bd020eecc3759|[Signature](downloads/ubuntu-17.04/efind-taglib_0.1-2_i386.deb.asc)
+
 ##py-path extension
 
 Filter search results by file extension and mime-type.
@@ -74,3 +75,12 @@ Filter search results by file extension and mime-type.
 | Download | Link | MD5 | GPG |
 | :------- | :--- | :-- | :-- |
 |Script|[efind-py-path-0.1.0.tar.gz](downloads/source/efind-py-path-0.1.0.tar.gz)|0c22e28fa5eabc8a37e6a573940597ed|[Signature](downloads/source/efind-py-path-0.1.0.tar.gz.asc)
+
+##py-mail extension
+
+Filter emails.
+
+| Download | Link | MD5 | GPG |
+| :------- | :--- | :-- | :-- |
+|Script|[efind-py-mail-0.1.0.tar.gz](downloads/source/efind-py-mail-0.1.0.tar.gz)|88ea0b2ba196fb8491b8112dc37f1fcb|[Signature](downloads/source/efind-py-mail-0.1.0.tar.gz.asc)
+

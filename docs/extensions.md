@@ -32,20 +32,26 @@ Lines starting with an hash (#) are ignored. To display blacklisted extensions t
 
 ## Available extensions
 
+### gdk-pixbuf
+
+Filter search results by image properties.
+
+[http://github.com/20centaurifux/efind-gdkpixbuf](http://github.com/20centaurifux/efind-gdkpixbuf)
+
 ### py-path
 
 Filter search results by file extension and mime-type.
 
 [http://github.com/20centaurifux/efind-py-path](http://github.com/20centaurifux/efind-py-path)
 
+### py-mail
+
+Filter emails.
+
+[http://github.com/20centaurifux/efind-py-mail](http://github.com/20centaurifux/efind-py-mail)
+
 ### taglib
 
 Filter search results by audio tags and properties.
 
 [http://github.com/20centaurifux/efind-taglib](http://github.com/20centaurifux/efind-taglib)
-
-### gdk-pixbuf
-
-Filter search results by image properties.
-
-[http://github.com/20centaurifux/efind-gdkpixbuf](http://github.com/20centaurifux/efind-gdkpixbuf)
