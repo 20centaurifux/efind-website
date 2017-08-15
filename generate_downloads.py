@@ -23,6 +23,8 @@ def build_download_name(name, filename):
 		name = "Debian 9"
 	elif name == "fedora-25":
 		name = "Fedora 25"
+	elif name == "fedora-26":
+		name = "Fedora 26"
 	elif name == "opensuse-leap":
 		name = "openSUSE Leap 42.2"
 	elif name == "slackware-14.2":
@@ -69,7 +71,7 @@ with open("downloads.head.md") as f:
     print f.read()
 
 print "##efind\n"
-generate_table("efind", "0.2.2")
+generate_table("efind", "0.3.0")
 
 print "\n##gdkpixbuf extension\n\nFilter search results by image properties.\n"
 generate_table("efind-gdkpixbuf", "0.1.1")

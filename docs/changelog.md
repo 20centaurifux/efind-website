@@ -1,3 +1,9 @@
+## 2017-08-15 - version 0.3.0 (Leif Erikson)
+
+* FEATURE: --order-by option
+* FEATURE: GNU gettext support
+* FEATURE: German translation
+
 ## 2017-07-16 - version 0.2.2
 
 * FEATURE: --show-blacklist option to print blacklisted extensions
