@@ -141,4 +141,3 @@ much appreciated :)
 ## Planned features
 
 * not operator
-* sort find results
