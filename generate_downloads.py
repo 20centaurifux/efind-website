@@ -48,7 +48,7 @@ def generate_rows(subfolder, pkg, version):
 
                 offset = 0
 
-                if pkg != "efind":
+                if pkg != "efind" and pkg != "efind-text-tools":
                     offset += 1
 
 		pos = prefix1.rfind('.')
@@ -78,6 +78,9 @@ generate_table("efind-gdkpixbuf", "0.1.1")
 
 print "\n##taglib extension\n\nFilter search results by audio tags and properties.\n"
 generate_table("efind-taglib", "0.1.1")
+
+print "\n##text-tools extension\n\nFilter text files by content.\n"
+generate_table("efind-text-tools", "0.1.0")
 
 with open("downloads.tail.md") as f:
     print "\n%s" % f.read()

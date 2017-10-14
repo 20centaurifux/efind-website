@@ -74,6 +74,31 @@ Ubuntu 16.04 (32-bit)|[efind-taglib_0.1-2_i386.deb](downloads/ubuntu-16.04/efind
 Ubuntu 17.04 (64-bit)|[efind-taglib_0.1-2_amd64.deb](downloads/ubuntu-17.04/efind-taglib_0.1-2_amd64.deb)|f63f02d28f41f03c00feb3d310670f89|[Signature](downloads/ubuntu-17.04/efind-taglib_0.1-2_amd64.deb.asc)
 Ubuntu 17.04 (32-bit)|[efind-taglib_0.1-2_i386.deb](downloads/ubuntu-17.04/efind-taglib_0.1-2_i386.deb)|57ca8768d3b64f3fc64bd020eecc3759|[Signature](downloads/ubuntu-17.04/efind-taglib_0.1-2_i386.deb.asc)
 
+##text-tools extension
+
+Filter text files by content.
+
+| Download | Link | MD5 | GPG |
+| :------- | :--- | :-- | :-- |
+Source code|[efind-text-tools-0.1.0.tar.xz](downloads/source/efind-text-tools-0.1.0.tar.xz)|9d5e6b9b06bc1b427faf03a9dc3f929b|[Signature](downloads/source/efind-text-tools-0.1.0.tar.xz.asc)
+Arch (64-bit)|[efind-text-tools-0.1.0-1-x86_64.pkg.tar.xz](downloads/arch/efind-text-tools-0.1.0-1-x86_64.pkg.tar.xz)|4d633a28db0e9e20d41c2597da97556a|[Signature](downloads/arch/efind-text-tools-0.1.0-1-x86_64.pkg.tar.xz.asc)
+CentOS 7 (64-bit)|[efind-text-tools-0.1.0-1.el7.centos.x86_64.rpm](downloads/centos-7/efind-text-tools-0.1.0-1.el7.centos.x86_64.rpm)|c413cf6abe379518c82df0d34e3deb77|[Signature](downloads/centos-7/efind-text-tools-0.1.0-1.el7.centos.x86_64.rpm.asc)
+Debian 8 (64-bit)|[efind-text-tools_0.1-0_amd64.deb](downloads/debian-8/efind-text-tools_0.1-0_amd64.deb)|6d2dccf770c8e7774e2e87a564482a20|[Signature](downloads/debian-8/efind-text-tools_0.1-0_amd64.deb.asc)
+Debian 8 (32-bit)|[efind-text-tools_0.1-0_i386.deb](downloads/debian-8/efind-text-tools_0.1-0_i386.deb)|4cd45c260ae279fc6c2e4f3757fb9c18|[Signature](downloads/debian-8/efind-text-tools_0.1-0_i386.deb.asc)
+Debian 9 (64-bit)|[efind-text-tools_0.1-0_amd64.deb](downloads/debian-9/efind-text-tools_0.1-0_amd64.deb)|27602b8de59ef58957e385ea4291fa76|[Signature](downloads/debian-9/efind-text-tools_0.1-0_amd64.deb.asc)
+Debian 9 (32-bit)|[efind-text-tools_0.1-0_i386.deb](downloads/debian-9/efind-text-tools_0.1-0_i386.deb)|5fbe208405b585da9fa0f6fd3a9ef38e|[Signature](downloads/debian-9/efind-text-tools_0.1-0_i386.deb.asc)
+Fedora 25 (32-bit)|[efind-text-tools-0.1.0-1.fc25.i686.rpm](downloads/fedora-25/efind-text-tools-0.1.0-1.fc25.i686.rpm)|59b435a574fd28cf5f2b83748bac25bb|[Signature](downloads/fedora-25/efind-text-tools-0.1.0-1.fc25.i686.rpm.asc)
+Fedora 25 (64-bit)|[efind-text-tools-0.1.0-1.fc25.x86_64.rpm](downloads/fedora-25/efind-text-tools-0.1.0-1.fc25.x86_64.rpm)|fe413cafad605684a49421e95be152ed|[Signature](downloads/fedora-25/efind-text-tools-0.1.0-1.fc25.x86_64.rpm.asc)
+Fedora 26 (32-bit)|[efind-text-tools-0.1.0-1.fc26.i686.rpm](downloads/fedora-26/efind-text-tools-0.1.0-1.fc26.i686.rpm)|0963c6aff8a08c81aa5d3d8d202cea7a|[Signature](downloads/fedora-26/efind-text-tools-0.1.0-1.fc26.i686.rpm.asc)
+Fedora 26 (64-bit)|[efind-text-tools-0.1.0-1.fc26.x86_64.rpm](downloads/fedora-26/efind-text-tools-0.1.0-1.fc26.x86_64.rpm)|f0151cb36519978dadf04e200bb6bff2|[Signature](downloads/fedora-26/efind-text-tools-0.1.0-1.fc26.x86_64.rpm.asc)
+openSUSE Leap 42.2 (64-bit)|[efind-text-tools-0.1.0-1.x86_64.rpm](downloads/opensuse-leap/efind-text-tools-0.1.0-1.x86_64.rpm)|b28d55700fe83c53c288c00d92cef8ab|[Signature](downloads/opensuse-leap/efind-text-tools-0.1.0-1.x86_64.rpm.asc)
+Slackware 14.2 (32-bit)|[efind-text-tools-0.1.0-i586-1_bbsb.txz](downloads/slackware-14.2/efind-text-tools-0.1.0-i586-1_bbsb.txz)|61e4da5138082f94d219f501cba2e725|[Signature](downloads/slackware-14.2/efind-text-tools-0.1.0-i586-1_bbsb.txz.asc)
+Slackware 14.2 (64-bit)|[efind-text-tools-0.1.0-x86_64-1_bbsb.txz](downloads/slackware-14.2/efind-text-tools-0.1.0-x86_64-1_bbsb.txz)|f5384737477b51964d0519a424277cf7|[Signature](downloads/slackware-14.2/efind-text-tools-0.1.0-x86_64-1_bbsb.txz.asc)
+Ubuntu 16.04 (64-bit)|[efind-text-tools_0.1-0_amd64.deb](downloads/ubuntu-16.04/efind-text-tools_0.1-0_amd64.deb)|54cb82e926c8821cf56ce73f917fb23a|[Signature](downloads/ubuntu-16.04/efind-text-tools_0.1-0_amd64.deb.asc)
+Ubuntu 16.04 (32-bit)|[efind-text-tools_0.1-0_i386.deb](downloads/ubuntu-16.04/efind-text-tools_0.1-0_i386.deb)|c61d8fd5f58218372912be031139cddd|[Signature](downloads/ubuntu-16.04/efind-text-tools_0.1-0_i386.deb.asc)
+Ubuntu 17.04 (64-bit)|[efind-text-tools_0.1-0_amd64.deb](downloads/ubuntu-17.04/efind-text-tools_0.1-0_amd64.deb)|b3cd96f182828927b681062850dab068|[Signature](downloads/ubuntu-17.04/efind-text-tools_0.1-0_amd64.deb.asc)
+Ubuntu 17.04 (32-bit)|[efind-text-tools_0.1-0_i386.deb](downloads/ubuntu-17.04/efind-text-tools_0.1-0_i386.deb)|8490785aae03b045add570b4c7fd7e8c|[Signature](downloads/ubuntu-17.04/efind-text-tools_0.1-0_i386.deb.asc)
+
 ##py-path extension
 
 Filter search results by file extension and mime-type.

@@ -46,7 +46,7 @@ Filter search results by file extension and mime-type.
 
 ### py-mail
 
-Filter emails.
+Filter emails by headers and body.
 
 [http://github.com/20centaurifux/efind-py-mail](http://github.com/20centaurifux/efind-py-mail)
 
@@ -55,3 +55,9 @@ Filter emails.
 Filter search results by audio tags and properties.
 
 [http://github.com/20centaurifux/efind-taglib](http://github.com/20centaurifux/efind-taglib)
+
+### text-tools
+
+Filter text files by content.
+
+[http://github.com/20centaurifux/efind-text-tools](http://github.com/20centaurifux/efind-text-tools)
