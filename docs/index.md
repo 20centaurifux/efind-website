@@ -140,4 +140,5 @@ much appreciated :)
 
 ## Planned features
 
-* not operator
+* allow multiple search folders
+* user-friendly field names for --order-by and --printf option

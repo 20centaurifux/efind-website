@@ -1,3 +1,8 @@
+## 2017-10-31 - version 0.3.1
+
+* FEATURE: not-operator
+* FEATURE: search additional extensions in directories specified in EFIND\_EXTENSION\_PATH variable
+
 ## 2017-08-15 - version 0.3.0 (Leif Erikson)
 
 * FEATURE: --order-by option

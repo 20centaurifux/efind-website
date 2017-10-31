@@ -32,7 +32,7 @@ def build_download_name(name, filename):
 	elif name == "ubuntu-16.04":
 		name = "Ubuntu 16.04"
 	elif name == "ubuntu-17.04":
-		name = "Ubuntu 17.04"
+		name = "Ubuntu 17.10"
 
 	if "x86_64" in filename or "amd64" in filename:
 		name = "%s (64-bit)" % name
@@ -71,7 +71,7 @@ with open("downloads.head.md") as f:
     print f.read()
 
 print "##efind\n"
-generate_table("efind", "0.3.0")
+generate_table("efind", "0.3.1")
 
 print "\n##gdkpixbuf extension\n\nFilter search results by image properties.\n"
 generate_table("efind-gdkpixbuf", "0.1.1")
