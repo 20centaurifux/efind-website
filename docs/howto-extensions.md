@@ -2,7 +2,8 @@
 
 In this tutorial we're going to write a custom function to filter found files by their file extension.
 
-	function check_extension(string: extension, integer: icase) # pseudo code
+	// pseudocode
+	function check_extension(string: extension, integer: icase)
 
 The first parameter (*extension*) is a string that specifies the extension we're looking for. The second one (*icase*) is a number which allows us to enable case insensitive string comparison.
 
@@ -14,7 +15,7 @@ To make all required types and function prototypes available include the [extens
 	$ wget https://raw.githubusercontent.com/20centaurifux/efind/master/extension-interface.h
 	$ echo '#include "extension-interface.h"' > ./c-example.c
 
-At first you should implement the "registration" function to make the extension available. Please specify name, version and a brief description by calling the given registration callback:
+At first you should implement the *registration()* function to make the extension available. Please specify name, version and a brief description by calling the registration callback *fn*:
 
 	void
 	registration(RegistrationCtx *ctx, RegisterExtension fn)
@@ -22,7 +23,7 @@ At first you should implement the "registration" function to make the extension 
 		fn(ctx, "example extension", "0.1.0", "An example extension written in C.");
 	}
 
-The "discover" function exports the custom filter functions you want to provide in your extension. Please specify name, number of parameters and parameter types.  Parameters can be strings or integers.
+The *discover()* function exports the filter functions you want to provide in your extension. Please specify name, number of parameters and parameter types.  Parameters can be strings or integers.
 
 	void
 	discover(RegistrationCtx *ctx, RegisterCallback fn)
@@ -30,7 +31,7 @@ The "discover" function exports the custom filter functions you want to provide 
 		fn(ctx, "c_check_extension", 2, CALLBACK_ARG_TYPE_STRING, CALLBACK_ARG_TYPE_INTEGER);
 	}
 
-In the example above a function named "c_check_extension" is exported. It has two parameters: a string and an integer.
+In the example above a function named *c\_check\_extension()* is exported. It has two parameters: a string and an integer.
 
 Now we implement the function:
 
@@ -111,11 +112,11 @@ In our example we want to write a function to test the extension of a filename. 
 
 	    return result
 
-The first parameter is always the name of the found file. Our example function has two optional arguments: *extension* and *icase*. To register the function properly the data types of these arguments have to be declared by adding a special attribute to the callable object:
+The first parameter is always the name of the found file. Our example function has two additional arguments: *extension* and *icase*. To register the function properly the data types of these arguments have to be declared by adding a special attribute to the callable object:
 
 	py_check_extension.__signature__=[str, int]
 
-The *EXTENSION_EXPORT* array exports your custom function(s) to **efind**:
+The *EXTENSION\_EXPORT* array exports your custom function(s) to **efind**:
 
 	EXTENSION_EXPORT=[py_check_extension]
 
@@ -148,14 +149,10 @@ A log message consists of the following fields:
 * line in the source file
 * message
 
-When developing your own extension you can use **efind's** logging capabilities to debug issues. Let's assume you write an extension in Python and you forget to export the filter functions. This problem can easily be detected by enabling logging and filtering the output with grep:
+When developing extensions you can use **efind's** logging capabilities to debug issues. Let's assume you forgot to declare the *EXTENSION\_EXPORT* variable in a Python extension. This problem can easily be detected by enabling logging and filtering the output with grep:
 
-	$ efind --list-extensions --log-level=5 | grep -E "<python>|<extension>"
+	$ efind --print-extensions --log-level=5 | grep -E "<python>|<extension>"
 	$ DEBUG Thu Jun 29 19:41:12 2017 <extension> ./extension.c, _extension_manager_extension_registered(), line 262 => Extension registered: name=example extension, version=0.1.0, description=An example extension written in Python.
 	$ DEBUG Thu Jun  19:41:12 2017 <python> ./py-ext-backend.c, _py_ext_discover(), line 424 => Couldn't find sequence `EXTENSION_EXPORT'.
 
 As you may notice, the TRACE log level produces a lot of messages. Usually the DEBUG log level is sufficient for debugging purposes.
-
-To distinguish between the different message types you can turn on colors:
-
-	$ efind . --log-level=6 --enable-log-color --list-extensions

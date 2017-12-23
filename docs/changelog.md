@@ -1,3 +1,19 @@
+## 2017-12-23 - version 0.4.0 (Magellan)
+
+* FEATURE: support multiple starting points/search paths
+* FEATURE: allow user-friendly field names in expressions and sort strings (e.g. "%{path}" instead of "%p")
+* FEATURE: new test suite
+* CHANGE: search extensions in /usr/lib/efind instead of /etc/efind
+* CHANGE: renamed --list-extensions option to --print-extensions
+* CHANGE: renamed --show-blacklist option to --print-blacklist
+* CHANGE: don't abort import of extensions if a single import fails
+* CHANGE: enable colored log messages by default
+* CHANGE: the fields %a, %c and %t print the timestamp in seconds
+* FIX: recognize regex and iregex attributes
+* FIX: allow filter functions as first function argument (e.g. "foo(bar(1, 2), 3)")
+* FIX: always return error code if "find" child process fails
+* FIX: integer overflow on x86 when calculating sparseness of files greater than 2G
+
 ## 2017-10-31 - version 0.3.1
 
 * FEATURE: not-operator

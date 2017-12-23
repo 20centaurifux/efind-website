@@ -22,6 +22,13 @@ the [taglib](https://github.com/20centaurifux/efind-taglib) extension:
 	$ efind ~/music '(name="*.mp3" or name="*.ogg") and mtime<2 days \
 	  and artist_matches("Welle: Erdball") and audio_length()>200'
 
+Use the *--order-by* option to sort the result by file size (descending) and
+path (ascending):
+
+	$ efind ~/music '(name="*.mp3" or name="*.ogg") and mtime<2 days \
+	  and artist_matches("Welle: Erdball") and audio_length()>200' \
+	  --order-by "-{bytes}{path}"
+
 ## Usage
 
 Running **efind** without any argument the search expression is read from
@@ -31,10 +38,10 @@ and *--expr* options:
 
 	$ efind --dir=/tmp --expr="size>1M and type=file"
 
-**efind** tries to handle the first two arguments as path and expression. It's
+**efind** tries to handle the first arguments as path(s) and expression. It's
 valid to run **efind** the following way:
 
-	$ efind ~/git 'type=file and name="CHANGELOG"'
+	$ efind ~/git ~/code 'type=file and name="CHANGELOG"'
 
 If you want to show the translated arguments without running GNU find use the
 *--print* option. To quote special shell characters append *--quote*:
@@ -109,7 +116,7 @@ Additionally you can test these flags:
 
 Sometimes GNU find doesn't behave in a way an average user would expect. The following
 expression finds all documents in the current folder with a file size less or equal than
-1G because every file with at least *one byte* is rounded up:
+1G because every file *with at least one byte* is rounded up:
 
 	$ find . -size 1G
 
@@ -123,10 +130,10 @@ expression finds all documents in the current folder with a file size less or eq
 * In contrast to GNU find numeric values like file size or group id are *not* converted
   to string. This means that all number related flags work with **efind**.
 * Width and precision are interpreted *exactly the same way* as the printf C function does.
-* The fields %a, %c and %t are not available. To print a date string in the
-  format returned by the "ctime" C function use %A, %C or %T without a format string.
+* The fields %a, %c and %t print the timestamp in seconds.
 * Date format strings are not limited to a single field. The string "%AHMS" prints hour,
   minute and second of the last file access, for example.
+* **efind's** printf format supports user-friendly field names like "{path}" or "{group}".
 * When printing an undefined escape sequence (e.g. "\P") only the character following the
   backslash is printed.
 
@@ -137,8 +144,7 @@ a package for your distribution. If you should miss a package type or if you wan
 support **efind** don't hesitate to [contact](/contact) me. Any help is
 much appreciated :)
 
-
 ## Planned features
 
-* allow multiple search folders
-* user-friendly field names for --order-by and --printf option
+* --skip option
+* --limit option

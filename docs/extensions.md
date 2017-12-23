@@ -2,9 +2,9 @@
 
 ## What are extensions?
 
-Extensions are custom functions that can be used to filter search results. Therefore, you are only allowed to use these functions *after* the search expression.
+Extensions make it possible to filter search results by custom functions. They can be written in C or Python.
 
-Custom functions return always a whole number. The "image_width" function from the [gdk-pixbuf extension]((http://github.com/20centaurifux/efind-gdkpixbuf)) is a good example. You can search for JPEG files wider than 800 pixels with the following command:
+Custom functions always return a whole number. The *image\_width()* function from the [gdk-pixbuf extension]((http://github.com/20centaurifux/efind-gdkpixbuf)) is a good example. You can search for JPEG files wider than 800 pixels with the following command:
 
 	$ efind . 'name="*.jpg" and image_width()>800'
 
@@ -12,23 +12,23 @@ Custom functions return always a whole number. The "image_width" function from t
 
 	$ find . -name "*.jpg"
 
-Then each file found by GNU find is filtered by evaluating the second part of the expression.
+Then each found file is filtered by evaluating the second part of the expression.
 
-A function can have optional arguments. Non-zero values evaluate to true. The "artist_matches" function from the [taglib extension](http://github.com/20centaurifux/efind-taglib) returns a non-zero value if the specified artist name matches the artist found in the ID3 tags of the file:
+A function can have optional arguments. Non-zero values evaluate to true. The *artist\_matches()* function from the [taglib extension](http://github.com/20centaurifux/efind-taglib) returns a non-zero value if the specified artist name matches the corresponding ID3 tag:
 
 	$ efind . 'name="*.mp3" and artist_matches("the cure")'
 
-To print a list with available functions from installed extensions run
+To print a list with available functions run
 
-	$ efind --list-extensions
+	$ efind --print-extensions
 
-Extensions can be installed globally in */etc/efind/extensions* or locally in *~/.efind/extensions*. Users can specifiy wildcard patterns in a personal blacklist (*~/.efind/blacklist*) to  prevent  extensions from being loaded. To disable all global extensions, for instance, add the following line to your blacklist:  
+Extensions can be installed globally in */usr/lib/efind/extensions* or locally in *~/.efind/extensions*. You may want to specify wildcard patterns in a personal blacklist (*~/.efind/blacklist*) to prevent extensions from being loaded. To disable all global Python extensions, for instance, add the following line to your blacklist:  
 
-	/etc/efind/extensions/*
+	/usr/lib/efind/extensions/*.py
 
 Lines starting with an hash (#) are ignored. To display blacklisted extensions type in
 
-	$ efind --show-blacklist
+	$ efind --print-blacklist
 
 ## Available extensions
 

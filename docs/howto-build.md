@@ -24,3 +24,10 @@ If your system is prepared you can compile and install **efind**:
 $ cd efind
 $ make && sudo make install
 ```
+
+Change file locations and build tools by setting the desired variables before
+running make:
+
+```
+$ CC=clang LIBDIR=/usr/lib make && sudo make install
+```
