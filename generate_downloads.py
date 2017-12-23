@@ -21,18 +21,18 @@ def build_download_name(name, filename):
 		name = "Debian 8"
 	elif name == "debian-9":
 		name = "Debian 9"
-	elif name == "fedora-25":
-		name = "Fedora 25"
 	elif name == "fedora-26":
 		name = "Fedora 26"
+	elif name == "fedora-27":
+		name = "Fedora 27"
 	elif name == "opensuse-leap":
 		name = "openSUSE Leap 42.2"
 	elif name == "slackware-14.2":
 		name = "Slackware 14.2"
-	elif name == "ubuntu-16.04":
-		name = "Ubuntu 16.04"
-	elif name == "ubuntu-17.04":
-		name = "Ubuntu 17.10"
+	elif name == "ubuntu-16":
+		name = "Ubuntu 16"
+	elif name == "ubuntu-17":
+		name = "Ubuntu 17"
 
 	if "x86_64" in filename or "amd64" in filename:
 		name = "%s (64-bit)" % name
@@ -46,13 +46,8 @@ def generate_rows(subfolder, pkg, version):
 		prefix0 = "%s-%s" % (pkg, version)
 		prefix1 = "%s_%s" % (pkg, version)
 
-                offset = 0
-
-                if pkg != "efind" and pkg != "efind-text-tools":
-                    offset += 1
-
 		pos = prefix1.rfind('.')
-		prefix1 = "%s-%d" % (prefix1[:pos], int(prefix1[pos + 1:]) + offset)
+		prefix1 = "%s-%d" % (prefix1[:pos], int(prefix1[pos + 1:]))
 
 		if (filename.startswith(prefix0) or filename.startswith(prefix1)) and not filename.endswith(".asc"):
 			print "%s|[%s](downloads/%s/%s)|%s|[Signature](downloads/%s/%s.asc)" % (build_download_name(subfolder, filename), filename, subfolder, filename, md5("docs/downloads/%s/%s" % (subfolder, filename)), subfolder, filename)
@@ -71,16 +66,16 @@ with open("downloads.head.md") as f:
     print f.read()
 
 print "##efind\n"
-generate_table("efind", "0.3.1")
+generate_table("efind", "0.4.0")
 
 print "\n##gdkpixbuf extension\n\nFilter search results by image properties.\n"
-generate_table("efind-gdkpixbuf", "0.1.1")
+generate_table("efind-gdkpixbuf", "0.2.0")
 
 print "\n##taglib extension\n\nFilter search results by audio tags and properties.\n"
-generate_table("efind-taglib", "0.1.1")
+generate_table("efind-taglib", "0.2.0")
 
 print "\n##text-tools extension\n\nFilter text files by content.\n"
-generate_table("efind-text-tools", "0.1.0")
+generate_table("efind-text-tools", "0.2.0")
 
 with open("downloads.tail.md") as f:
     print "\n%s" % f.read()
