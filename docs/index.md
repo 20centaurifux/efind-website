@@ -19,15 +19,26 @@ problem with **efind's** self-explanatory expression syntax:
 Additionally you can filter the search result by audio tags and properties with
 the [taglib](https://github.com/20centaurifux/efind-taglib) extension:
 
+```
 	$ efind ~/music '(name="*.mp3" or name="*.ogg") and mtime<2 days \
-	  and artist_matches("Welle: Erdball") and audio_length()>200'
+	  and artist_matches("David Bowie") and audio_length()>120'
+```
 
 Use the *--order-by* option to sort the result by file size (descending) and
 path (ascending):
 
 	$ efind ~/music '(name="*.mp3" or name="*.ogg") and mtime<2 days \
-	  and artist_matches("Welle: Erdball") and audio_length()>200' \
+	  and artist_matches("David Bowie") and audio_length()>120' \
 	  --order-by "-{bytes}{path}"
+
+**efind** also provides options to limit the output:
+
+	$ efind ~/music '(name="*.mp3" or name="*.ogg") and mtime<2 days \
+	  and artist_matches("David Bowie") and audio_length()>120' \
+	  --limit 1
+
+The example above prints the first file matching the search criteria and aborts the
+search immediately.
 
 ## Usage
 
@@ -116,7 +127,7 @@ Additionally you can test these flags:
 
 Sometimes GNU find doesn't behave in a way an average user would expect. The following
 expression finds all documents in the current folder with a file size less or equal than
-1G because every file *with at least one byte* is rounded up:
+1G because every file with at least one byte is rounded up:
 
 	$ find . -size 1G
 
@@ -129,7 +140,7 @@ expression finds all documents in the current folder with a file size less or eq
 
 * In contrast to GNU find numeric values like file size or group id are *not* converted
   to string. This means that all number related flags work with **efind**.
-* Width and precision are interpreted *exactly the same way* as the printf C function does.
+* Width and precision are interpreted exactly the same way as the printf C function does.
 * The fields %a, %c and %t print the timestamp in seconds.
 * Date format strings are not limited to a single field. The string "%AHMS" prints hour,
   minute and second of the last file access, for example.
@@ -146,5 +157,4 @@ much appreciated :)
 
 ## Planned features
 
-* --skip option
-* --limit option
+* Lua support

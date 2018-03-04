@@ -1,3 +1,11 @@
+## 2018-03-04 v0.4.1
+* FEATURE: load settings from configuration files
+* FEATURE: --skip & --limit options
+* CHANGE: renamed --disable-log-colors option to --log-color
+* CHANGE: optional boolean arguments for --follow & --quote options
+* FIX: memory leak when specifying multiple expressions with --expr option
+* FIX: don't add same starting-point twice when using -d option
+
 ## 2017-12-23 - version 0.4.0 (Magellan)
 
 * FEATURE: support multiple starting points/search paths

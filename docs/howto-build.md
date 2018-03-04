@@ -12,7 +12,8 @@ If you want to install all dependencies on a Debian based distribution and check
 the source code type in the following commands:
 
 ```
-$ sudo apt-get install build-essential git bison flex libpython2.7-dev libffi-dev
+$ sudo apt-get install build-essential git pkg-config gettext \
+  bison flex libpython2.7-dev libffi-dev
 $ git clone --recursive https://github.com/20centaurifux/efind.git
 ```
 
