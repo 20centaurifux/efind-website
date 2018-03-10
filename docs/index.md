@@ -8,9 +8,9 @@ Basically it's a wrapper for [GNU find](https://www.gnu.org/software/findutils/)
 providing an easier and more intuitive expression syntax. It can be extended
 by custom functions to filter search results.
 
-Watch this screencast to get a brief overview!
+Watch this screencast to get a brief overview:
 
-<script src="https://asciinema.org/a/167040.js" id="asciicast-167040" async></script>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ayrJS86nr4o" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 ## Usage
 

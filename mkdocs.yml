@@ -9,9 +9,10 @@ pages:
     - Home: index.md
     - Changelog: changelog.md
     - Downloads: downloads.md
+    - Screencasts: screencasts.md
+    - Building efind: howto-build.md
     - Extensions: extensions.md
     - Writing extensions: howto-extensions.md
-    - Building efind: howto-build.md
     - Contact: contact.md
     - Imprint: imprint.md
 
