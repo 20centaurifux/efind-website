@@ -25,8 +25,8 @@ def build_download_name(name, filename):
 		name = "openSUSE Leap 42.2"
 	elif name == "slackware-14.2":
 		name = "Slackware 14.2"
-	elif name == "ubuntu-16":
-		name = "Ubuntu 16.04"
+	elif name == "ubuntu-18":
+		name = "Ubuntu 18.04"
 	elif name == "ubuntu-18":
 		name = "Ubuntu 18.04"
 
