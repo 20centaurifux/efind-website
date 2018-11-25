@@ -130,4 +130,3 @@ much appreciated :)
 ## Planned features
 
 * Lua support
-* switch to Python 3

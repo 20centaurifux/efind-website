@@ -87,7 +87,7 @@ Now you can use the function in **efind**:
 
 You find this example in the [examples](https://github.com/20centaurifux/efind/tree/master/examples/c) folder.
 
-## Writing extensions in Python 2
+## Writing extensions in Python 3
 
 **efind** can load custom functions from Python scripts. Please consider that your script is imported by its module name and not by filename. As a consequence the import may fail if there's a shared library having the same name as your script in one of the extension folders.
 
@@ -99,7 +99,7 @@ Your script has to define the strings *EXTENSION_NAME*, *EXTENSION_VERSION* and 
 
 In our example we want to write a function to test the extension of a filename. It could be implemented the following way:
 
-	def py_check_extension(filename, extension, icase):
+	def py_check_extension(filename: str, extension: str, icase: int):
 	    result = 0
 
 	    _, ext = os.path.splitext(filename)
@@ -112,9 +112,7 @@ In our example we want to write a function to test the extension of a filename. 
 
 	    return result
 
-The first parameter is always the name of the found file. Our example function has two additional arguments: *extension* and *icase*. To register the function properly the data types of these arguments have to be declared by adding a special attribute to the callable object:
-
-	py_check_extension.__signature__=[str, int]
+The first parameter is always the name of the found file. Our example function has two additional arguments: *extension* and *icase*. To register the function properly you have to use type-hints.
 
 The *EXTENSION\_EXPORT* array exports your custom function(s) to **efind**:
 
