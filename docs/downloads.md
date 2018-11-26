@@ -6,17 +6,13 @@ You can use my [GnuPG key](http://dixieflatline.de/sebastian_at_dixieflatline.de
 
 | Download | Link | MD5 | GPG |
 | :------- | :--- | :-- | :-- |
-Source code|[efind-0.4.2.tar.xz](downloads/source/efind-0.4.2.tar.xz)|74cde34cb0311baa114dec7f0c7aadb7|[Signature](downloads/source/efind-0.4.2.tar.xz.asc)
-Arch (64-bit)|[efind-0.4.2-1-x86_64.pkg.tar.xz](downloads/arch/efind-0.4.2-1-x86_64.pkg.tar.xz)|f2fedcc4e455dd8e3378d998788d1bfb|[Signature](downloads/arch/efind-0.4.2-1-x86_64.pkg.tar.xz.asc)
-CentOS 7 (64-bit)|[efind-0.4.2-1.el7.x86_64.rpm](downloads/centos-7/efind-0.4.2-1.el7.x86_64.rpm)|1069a648cf91a48d1be47847b44df9dd|[Signature](downloads/centos-7/efind-0.4.2-1.el7.x86_64.rpm.asc)
-Debian 9 (64-bit)|[efind_0.4-2_amd64.deb](downloads/debian-9/efind_0.4-2_amd64.deb)|c1c0cea1dbd0cfe87e3ee3063bbbae54|[Signature](downloads/debian-9/efind_0.4-2_amd64.deb.asc)
-Debian 9 (32-bit)|[efind_0.4-2_i386.deb](downloads/debian-9/efind_0.4-2_i386.deb)|3382f6e5f9c06d8734e325cef8ddc038|[Signature](downloads/debian-9/efind_0.4-2_i386.deb.asc)
-Fedora 28 (64-bit)|[efind-0.4.2-1.fc28.x86_64.rpm](downloads/fedora-28/efind-0.4.2-1.fc28.x86_64.rpm)|303db5f5eec2c284fa431a5d2de510c9|[Signature](downloads/fedora-28/efind-0.4.2-1.fc28.x86_64.rpm.asc)
-openSUSE Leap 42.2 (64-bit)|[efind-0.4.2-1.x86_64.rpm](downloads/opensuse-leap/efind-0.4.2-1.x86_64.rpm)|e1f25bf751b54c5da90a8a3b2d2fe472|[Signature](downloads/opensuse-leap/efind-0.4.2-1.x86_64.rpm.asc)
-Slackware 14.2 (32-bit)|[efind-0.4.2-i586-1_bbsb.txz](downloads/slackware-14.2/efind-0.4.2-i586-1_bbsb.txz)|d1fd77bcf47171dbffe9fc64718aa8d5|[Signature](downloads/slackware-14.2/efind-0.4.2-i586-1_bbsb.txz.asc)
-Slackware 14.2 (64-bit)|[efind-0.4.2-x86_64-1_bbsb.txz](downloads/slackware-14.2/efind-0.4.2-x86_64-1_bbsb.txz)|95399196090632564644e9dc7fee8420|[Signature](downloads/slackware-14.2/efind-0.4.2-x86_64-1_bbsb.txz.asc)
-ubuntu-18.04 (64-bit)|[efind_0.4-2_amd64.deb](downloads/ubuntu-18.04/efind_0.4-2_amd64.deb)|8af0f483a79582be1a01c5d8356ba995|[Signature](downloads/ubuntu-18.04/efind_0.4-2_amd64.deb.asc)
-ubuntu-18.10 (64-bit)|[efind_0.4-2_amd64.deb](downloads/ubuntu-18.10/efind_0.4-2_amd64.deb)|985174c4859639aa2b8b862c111127ff|[Signature](downloads/ubuntu-18.10/efind_0.4-2_amd64.deb.asc)
+Source code|[efind-0.5.0.tar.xz](downloads/source/efind-0.5.0.tar.xz)|2188c9e9249fd7fe8257d387904888ba|[Signature](downloads/source/efind-0.5.0.tar.xz.asc)
+Arch (64-bit)|[efind-0.5.0-1-x86_64.pkg.tar.xz](downloads/arch/efind-0.5.0-1-x86_64.pkg.tar.xz)|914375b0a19d024655da6b54f19a0dad|[Signature](downloads/arch/efind-0.5.0-1-x86_64.pkg.tar.xz.asc)
+Debian 9 (64-bit)|[efind_0.5-0_amd64.deb](downloads/debian-9/efind_0.5-0_amd64.deb)|23b0097405d46126ab96926ce6165a5a|[Signature](downloads/debian-9/efind_0.5-0_amd64.deb.asc)
+Debian 9 (32-bit)|[efind_0.5-0_i386.deb](downloads/debian-9/efind_0.5-0_i386.deb)|79fa36e65f58da270dc235f1cf427fcc|[Signature](downloads/debian-9/efind_0.5-0_i386.deb.asc)
+Fedora 28 (64-bit)|[efind-0.5.0-1.fc28.x86_64.rpm](downloads/fedora-28/efind-0.5.0-1.fc28.x86_64.rpm)|fe1d391adad578a2ef64c7aa01ca2b74|[Signature](downloads/fedora-28/efind-0.5.0-1.fc28.x86_64.rpm.asc)
+ubuntu-18.04 (64-bit)|[efind_0.5-0_amd64.deb](downloads/ubuntu-18.04/efind_0.5-0_amd64.deb)|605fb1886b2b01e157f7c97e354f1821|[Signature](downloads/ubuntu-18.04/efind_0.5-0_amd64.deb.asc)
+ubuntu-18.10 (64-bit)|[efind_0.5-0_amd64.deb](downloads/ubuntu-18.10/efind_0.5-0_amd64.deb)|fc7a75a43f5f548a2099cbe781b475d0|[Signature](downloads/ubuntu-18.10/efind_0.5-0_amd64.deb.asc)
 
 ##gdkpixbuf extension
 
@@ -26,15 +22,9 @@ Filter search results by image properties.
 | :------- | :--- | :-- | :-- |
 Source code|[efind-gdkpixbuf-0.2.0.tar.xz](downloads/source/efind-gdkpixbuf-0.2.0.tar.xz)|ba33ceb1c3a1cce27ffbcbbd8d608394|[Signature](downloads/source/efind-gdkpixbuf-0.2.0.tar.xz.asc)
 Arch (64-bit)|[efind-gdkpixbuf-0.2.0-1-x86_64.pkg.tar.xz](downloads/arch/efind-gdkpixbuf-0.2.0-1-x86_64.pkg.tar.xz)|079d90cc5b274f39a0f094c761d3394c|[Signature](downloads/arch/efind-gdkpixbuf-0.2.0-1-x86_64.pkg.tar.xz.asc)
-CentOS 7 (64-bit)|[efind-gdkpixbuf-0.2.0-1.el7.centos.x86_64.rpm](downloads/centos-7/efind-gdkpixbuf-0.2.0-1.el7.centos.x86_64.rpm)|96965ba1274e8ffbec797b1f0c21e24c|[Signature](downloads/centos-7/efind-gdkpixbuf-0.2.0-1.el7.centos.x86_64.rpm.asc)
-debian-8 (64-bit)|[efind-gdkpixbuf_0.2-0_amd64.deb](downloads/debian-8/efind-gdkpixbuf_0.2-0_amd64.deb)|aa95f8a1de0cdac53cad58a2fe34505e|[Signature](downloads/debian-8/efind-gdkpixbuf_0.2-0_amd64.deb.asc)
-debian-8 (32-bit)|[efind-gdkpixbuf_0.2-0_i386.deb](downloads/debian-8/efind-gdkpixbuf_0.2-0_i386.deb)|54385e43c9c34a3dea9f075f6e3d62a3|[Signature](downloads/debian-8/efind-gdkpixbuf_0.2-0_i386.deb.asc)
 Debian 9 (64-bit)|[efind-gdkpixbuf_0.2-0_amd64.deb](downloads/debian-9/efind-gdkpixbuf_0.2-0_amd64.deb)|60a96d5a007191fc84d57e4bbb9ac695|[Signature](downloads/debian-9/efind-gdkpixbuf_0.2-0_amd64.deb.asc)
 Debian 9 (32-bit)|[efind-gdkpixbuf_0.2-0_i386.deb](downloads/debian-9/efind-gdkpixbuf_0.2-0_i386.deb)|b9075dc5eb4dcfb53740048565753608|[Signature](downloads/debian-9/efind-gdkpixbuf_0.2-0_i386.deb.asc)
 Fedora 28 (64-bit)|[efind-gdkpixbuf-0.2.0-1.fc28.x86_64.rpm](downloads/fedora-28/efind-gdkpixbuf-0.2.0-1.fc28.x86_64.rpm)|aeffb49625bcbf54cc8a2f4e67d4ffb0|[Signature](downloads/fedora-28/efind-gdkpixbuf-0.2.0-1.fc28.x86_64.rpm.asc)
-openSUSE Leap 42.2 (64-bit)|[efind-gdkpixbuf-0.2.0-1.x86_64.rpm](downloads/opensuse-leap/efind-gdkpixbuf-0.2.0-1.x86_64.rpm)|0870214913b5766d00a1c491d37c5871|[Signature](downloads/opensuse-leap/efind-gdkpixbuf-0.2.0-1.x86_64.rpm.asc)
-Slackware 14.2 (32-bit)|[efind-gdkpixbuf-0.2.0-i586-1_bbsb.txz](downloads/slackware-14.2/efind-gdkpixbuf-0.2.0-i586-1_bbsb.txz)|fc9a303e0a2acc92c3370036a4db7228|[Signature](downloads/slackware-14.2/efind-gdkpixbuf-0.2.0-i586-1_bbsb.txz.asc)
-Slackware 14.2 (64-bit)|[efind-gdkpixbuf-0.2.0-x86_64-1_bbsb.txz](downloads/slackware-14.2/efind-gdkpixbuf-0.2.0-x86_64-1_bbsb.txz)|3a739a811a5ca1d8bf88434fb13d8269|[Signature](downloads/slackware-14.2/efind-gdkpixbuf-0.2.0-x86_64-1_bbsb.txz.asc)
 ubuntu-18.04 (64-bit)|[efind-gdkpixbuf_0.2-0_amd64.deb](downloads/ubuntu-18.04/efind-gdkpixbuf_0.2-0_amd64.deb)|6b17c3b5af858e65b4e19ae656f84220|[Signature](downloads/ubuntu-18.04/efind-gdkpixbuf_0.2-0_amd64.deb.asc)
 ubuntu-18.10 (64-bit)|[efind-gdkpixbuf_0.2-0_amd64.deb](downloads/ubuntu-18.10/efind-gdkpixbuf_0.2-0_amd64.deb)|40776cdec05692554edcce6fcde20b1e|[Signature](downloads/ubuntu-18.10/efind-gdkpixbuf_0.2-0_amd64.deb.asc)
 
@@ -46,14 +36,9 @@ Filter search results by audio tags and properties.
 | :------- | :--- | :-- | :-- |
 Source code|[efind-taglib-0.2.0.tar.xz](downloads/source/efind-taglib-0.2.0.tar.xz)|481f5cd5f83ced1c841eda492eb7e7bc|[Signature](downloads/source/efind-taglib-0.2.0.tar.xz.asc)
 Arch (64-bit)|[efind-taglib-0.2.0-1-x86_64.pkg.tar.xz](downloads/arch/efind-taglib-0.2.0-1-x86_64.pkg.tar.xz)|40ecf5da3dc6112f0483cfdbc384927e|[Signature](downloads/arch/efind-taglib-0.2.0-1-x86_64.pkg.tar.xz.asc)
-CentOS 7 (64-bit)|[efind-taglib-0.2.0-1.el7.centos.x86_64.rpm](downloads/centos-7/efind-taglib-0.2.0-1.el7.centos.x86_64.rpm)|395f93643bde651a97782e9866015060|[Signature](downloads/centos-7/efind-taglib-0.2.0-1.el7.centos.x86_64.rpm.asc)
-debian-8 (64-bit)|[efind-taglib_0.2-0_amd64.deb](downloads/debian-8/efind-taglib_0.2-0_amd64.deb)|bbb4974d9c4d283e53799a8f7ef772db|[Signature](downloads/debian-8/efind-taglib_0.2-0_amd64.deb.asc)
-debian-8 (32-bit)|[efind-taglib_0.2-0_i386.deb](downloads/debian-8/efind-taglib_0.2-0_i386.deb)|8c0eb9fc180f2a00e49a261ef5b03c03|[Signature](downloads/debian-8/efind-taglib_0.2-0_i386.deb.asc)
 Debian 9 (64-bit)|[efind-taglib_0.2-0_amd64.deb](downloads/debian-9/efind-taglib_0.2-0_amd64.deb)|143410a9befcab00ce86a15c1e5ebf62|[Signature](downloads/debian-9/efind-taglib_0.2-0_amd64.deb.asc)
 Debian 9 (32-bit)|[efind-taglib_0.2-0_i386.deb](downloads/debian-9/efind-taglib_0.2-0_i386.deb)|8a911cd7b3b7e3bf728ca3be10825fe4|[Signature](downloads/debian-9/efind-taglib_0.2-0_i386.deb.asc)
 Fedora 28 (64-bit)|[efind-taglib-0.2.0-1.fc28.x86_64.rpm](downloads/fedora-28/efind-taglib-0.2.0-1.fc28.x86_64.rpm)|49a07f6c4e9caa0614c393704c8346b8|[Signature](downloads/fedora-28/efind-taglib-0.2.0-1.fc28.x86_64.rpm.asc)
-Slackware 14.2 (32-bit)|[efind-taglib-0.2.0-i586-1_bbsb.txz](downloads/slackware-14.2/efind-taglib-0.2.0-i586-1_bbsb.txz)|4b8eed7d189ec5de1ec55f405d46b404|[Signature](downloads/slackware-14.2/efind-taglib-0.2.0-i586-1_bbsb.txz.asc)
-Slackware 14.2 (64-bit)|[efind-taglib-0.2.0-x86_64-1_bbsb.txz](downloads/slackware-14.2/efind-taglib-0.2.0-x86_64-1_bbsb.txz)|b9302ab2ae0d2a67254f6d402788e2a5|[Signature](downloads/slackware-14.2/efind-taglib-0.2.0-x86_64-1_bbsb.txz.asc)
 ubuntu-18.04 (64-bit)|[efind-taglib_0.2-0_amd64.deb](downloads/ubuntu-18.04/efind-taglib_0.2-0_amd64.deb)|eab80ed442527f28ec3f82e09d436a6b|[Signature](downloads/ubuntu-18.04/efind-taglib_0.2-0_amd64.deb.asc)
 ubuntu-18.10 (64-bit)|[efind-taglib_0.2-0_amd64.deb](downloads/ubuntu-18.10/efind-taglib_0.2-0_amd64.deb)|5d3e020640fe72d4c30d6b1c9dff3270|[Signature](downloads/ubuntu-18.10/efind-taglib_0.2-0_amd64.deb.asc)
 
@@ -65,15 +50,9 @@ Filter text files by content.
 | :------- | :--- | :-- | :-- |
 Source code|[efind-text-tools-0.2.0.tar.xz](downloads/source/efind-text-tools-0.2.0.tar.xz)|389ba2f433822732a4a88a975cfc34ac|[Signature](downloads/source/efind-text-tools-0.2.0.tar.xz.asc)
 Arch (64-bit)|[efind-text-tools-0.2.0-1-x86_64.pkg.tar.xz](downloads/arch/efind-text-tools-0.2.0-1-x86_64.pkg.tar.xz)|df500d55bb069edb9f7ea0ae2fc9cc9a|[Signature](downloads/arch/efind-text-tools-0.2.0-1-x86_64.pkg.tar.xz.asc)
-CentOS 7 (64-bit)|[efind-text-tools-0.2.0-1.el7.centos.x86_64.rpm](downloads/centos-7/efind-text-tools-0.2.0-1.el7.centos.x86_64.rpm)|1f738f56331d749aa7c4fdc2a2fe5764|[Signature](downloads/centos-7/efind-text-tools-0.2.0-1.el7.centos.x86_64.rpm.asc)
-debian-8 (64-bit)|[efind-text-tools_0.2-0_amd64.deb](downloads/debian-8/efind-text-tools_0.2-0_amd64.deb)|46a4460205afdea99d3ea524ba154a0c|[Signature](downloads/debian-8/efind-text-tools_0.2-0_amd64.deb.asc)
-debian-8 (32-bit)|[efind-text-tools_0.2-0_i386.deb](downloads/debian-8/efind-text-tools_0.2-0_i386.deb)|f7261366852216aba6763d461704f8c2|[Signature](downloads/debian-8/efind-text-tools_0.2-0_i386.deb.asc)
 Debian 9 (64-bit)|[efind-text-tools_0.2-0_amd64.deb](downloads/debian-9/efind-text-tools_0.2-0_amd64.deb)|5086df41369e74c19254762835120f95|[Signature](downloads/debian-9/efind-text-tools_0.2-0_amd64.deb.asc)
 Debian 9 (32-bit)|[efind-text-tools_0.2-0_i386.deb](downloads/debian-9/efind-text-tools_0.2-0_i386.deb)|de061e1d9e3f6b25fa22cd3e8a03f7ce|[Signature](downloads/debian-9/efind-text-tools_0.2-0_i386.deb.asc)
 Fedora 28 (64-bit)|[efind-text-tools-0.2.0-1.fc28.x86_64.rpm](downloads/fedora-28/efind-text-tools-0.2.0-1.fc28.x86_64.rpm)|0affd2b41d59f2e207e49939002ec4b6|[Signature](downloads/fedora-28/efind-text-tools-0.2.0-1.fc28.x86_64.rpm.asc)
-openSUSE Leap 42.2 (64-bit)|[efind-text-tools-0.2.0-1.x86_64.rpm](downloads/opensuse-leap/efind-text-tools-0.2.0-1.x86_64.rpm)|b9923ae103f43b022b7463eaf5e24a96|[Signature](downloads/opensuse-leap/efind-text-tools-0.2.0-1.x86_64.rpm.asc)
-Slackware 14.2 (32-bit)|[efind-text-tools-0.2.0-i586-1_bbsb.txz](downloads/slackware-14.2/efind-text-tools-0.2.0-i586-1_bbsb.txz)|168d966f761ca66f2b099fa9c66052e3|[Signature](downloads/slackware-14.2/efind-text-tools-0.2.0-i586-1_bbsb.txz.asc)
-Slackware 14.2 (64-bit)|[efind-text-tools-0.2.0-x86_64-1_bbsb.txz](downloads/slackware-14.2/efind-text-tools-0.2.0-x86_64-1_bbsb.txz)|4aebf55f574cd78bc9164e3959c5bd30|[Signature](downloads/slackware-14.2/efind-text-tools-0.2.0-x86_64-1_bbsb.txz.asc)
 ubuntu-18.04 (64-bit)|[efind-text-tools_0.2-0_amd64.deb](downloads/ubuntu-18.04/efind-text-tools_0.2-0_amd64.deb)|baafd46864c429d910210a1ad0e5e29d|[Signature](downloads/ubuntu-18.04/efind-text-tools_0.2-0_amd64.deb.asc)
 ubuntu-18.10 (64-bit)|[efind-text-tools_0.2-0_amd64.deb](downloads/ubuntu-18.10/efind-text-tools_0.2-0_amd64.deb)|ed6dd4fdff23616088da6b419f2da725|[Signature](downloads/ubuntu-18.10/efind-text-tools_0.2-0_amd64.deb.asc)
 
@@ -83,7 +62,7 @@ Filter search results by file extension and mime-type.
 
 | Download | Link | MD5 | GPG |
 | :------- | :--- | :-- | :-- |
-|Script|[efind-py-path-0.1.0.tar.gz](downloads/source/efind-py-path-0.1.0.tar.gz)|0c22e28fa5eabc8a37e6a573940597ed|[Signature](downloads/source/efind-py-path-0.1.0.tar.gz.asc)
+|Script|[efind-py-path-0.2.0.tar.gz](downloads/source/efind-py-path-0.2.0.tar.gz)|274397a7f788c064578ec3cf55943fc1|[Signature](downloads/source/efind-py-path-0.2.0.tar.gz.asc)
 
 ##py-mail extension
 
@@ -91,5 +70,5 @@ Filter emails.
 
 | Download | Link | MD5 | GPG |
 | :------- | :--- | :-- | :-- |
-|Script|[efind-py-mail-0.1.0.tar.gz](downloads/source/efind-py-mail-0.1.0.tar.gz)|88ea0b2ba196fb8491b8112dc37f1fcb|[Signature](downloads/source/efind-py-mail-0.1.0.tar.gz.asc)
+|Script|[efind-py-mail-0.2.0.tar.gz](downloads/source/efind-py-mail-0.2.0.tar.gz)|1656e8c14b93384e4cd1b7e43ea6407b|[Signature](downloads/source/efind-py-mail-0.2.0.tar.gz.asc)
 
