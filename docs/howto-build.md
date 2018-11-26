@@ -13,7 +13,7 @@ the source code type in the following commands:
 
 ```
 $ sudo apt-get install build-essential git pkg-config gettext \
-  bison flex libpython2.7-dev libffi-dev
+  bison flex python3-dev libffi-dev
 $ git clone --recursive https://github.com/20centaurifux/efind.git
 ```
 
