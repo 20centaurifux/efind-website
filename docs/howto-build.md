@@ -4,7 +4,7 @@
 Installation options can be customized in the Makefile.
 
 Please ensure that [GNU Bison](https://www.gnu.org/software/bison/),
-[GNU Flex](https://www.gnu.org/software/flex/), [Python 2.7](https://www.python.org/)
+[GNU Flex](https://www.gnu.org/software/flex/), [Python 3](https://www.python.org/)
 and [libffi](https://sourceware.org/libffi/) are installed on your
 system before you build **efind**.
 
