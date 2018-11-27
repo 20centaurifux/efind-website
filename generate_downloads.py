@@ -39,6 +39,9 @@ def build_download_name(name, filename):
 	else:
 		name = "%s (32-bit)" % name
 
+	if "Slackware" in name:
+		name = name + " [requires Python 3]"
+
 	return name
 
 def generate_rows(subfolder, pkg, version):

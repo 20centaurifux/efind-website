@@ -13,6 +13,8 @@ Debian Stretch (32-bit)|[efind_0.5-0_i386.deb](downloads/debian-9/efind_0.5-0_i3
 Fedora 28 (64-bit)|[efind-0.5.0-1.fc28.x86_64.rpm](downloads/fedora-28/efind-0.5.0-1.fc28.x86_64.rpm)|fe1d391adad578a2ef64c7aa01ca2b74|[Signature](downloads/fedora-28/efind-0.5.0-1.fc28.x86_64.rpm.asc)
 openSUSE Leap 15 (64-bit)|[efind-0.5.0-1.x86_64.rpm](downloads/opensuse-leap/efind-0.5.0-1.x86_64.rpm)|389f492258b358560621fd84dab7ad2b|[Signature](downloads/opensuse-leap/efind-0.5.0-1.x86_64.rpm.asc)
 Raspbian Stretch (armhf)|[efind_0.5-0_armhf.deb](downloads/raspbian-9/efind_0.5-0_armhf.deb)|9ec40179bfd6ed8e3b7cd7e554e69f9f|[Signature](downloads/raspbian-9/efind_0.5-0_armhf.deb.asc)
+Slackware 14.2 (32-bit) [requires Python 3]|[efind-0.5.0-i586-1_bbsb.txz](downloads/slackware-14.2/efind-0.5.0-i586-1_bbsb.txz)|a992c6363053e9452fe98ac2d7bfd395|[Signature](downloads/slackware-14.2/efind-0.5.0-i586-1_bbsb.txz.asc)
+Slackware 14.2 (64-bit) [requires Python 3]|[efind-0.5.0-x86_64-1_bbsb.txz](downloads/slackware-14.2/efind-0.5.0-x86_64-1_bbsb.txz)|0f261148ca3b2d590ae2da62449ebb29|[Signature](downloads/slackware-14.2/efind-0.5.0-x86_64-1_bbsb.txz.asc)
 Ubuntu 18.04 (64-bit)|[efind_0.5-0_amd64.deb](downloads/ubuntu-18.04/efind_0.5-0_amd64.deb)|605fb1886b2b01e157f7c97e354f1821|[Signature](downloads/ubuntu-18.04/efind_0.5-0_amd64.deb.asc)
 Ubuntu 18.10 (64-bit)|[efind_0.5-0_amd64.deb](downloads/ubuntu-18.10/efind_0.5-0_amd64.deb)|fc7a75a43f5f548a2099cbe781b475d0|[Signature](downloads/ubuntu-18.10/efind_0.5-0_amd64.deb.asc)
 
@@ -29,6 +31,8 @@ Debian Stretch (32-bit)|[efind-gdkpixbuf_0.2-0_i386.deb](downloads/debian-9/efin
 Fedora 28 (64-bit)|[efind-gdkpixbuf-0.2.0-1.fc28.x86_64.rpm](downloads/fedora-28/efind-gdkpixbuf-0.2.0-1.fc28.x86_64.rpm)|aeffb49625bcbf54cc8a2f4e67d4ffb0|[Signature](downloads/fedora-28/efind-gdkpixbuf-0.2.0-1.fc28.x86_64.rpm.asc)
 openSUSE Leap 15 (64-bit)|[efind-gdkpixbuf-0.2.0-1.x86_64.rpm](downloads/opensuse-leap/efind-gdkpixbuf-0.2.0-1.x86_64.rpm)|cb8624e67c150ec8eef3fc481eb3a1b9|[Signature](downloads/opensuse-leap/efind-gdkpixbuf-0.2.0-1.x86_64.rpm.asc)
 Raspbian Stretch (armhf)|[efind-gdkpixbuf_0.2-0_armhf.deb](downloads/raspbian-9/efind-gdkpixbuf_0.2-0_armhf.deb)|087ae954c4f735c48d93282294485dc5|[Signature](downloads/raspbian-9/efind-gdkpixbuf_0.2-0_armhf.deb.asc)
+Slackware 14.2 (32-bit) [requires Python 3]|[efind-gdkpixbuf-0.2.0-i586-1_bbsb.txz](downloads/slackware-14.2/efind-gdkpixbuf-0.2.0-i586-1_bbsb.txz)|fc9a303e0a2acc92c3370036a4db7228|[Signature](downloads/slackware-14.2/efind-gdkpixbuf-0.2.0-i586-1_bbsb.txz.asc)
+Slackware 14.2 (64-bit) [requires Python 3]|[efind-gdkpixbuf-0.2.0-x86_64-1_bbsb.txz](downloads/slackware-14.2/efind-gdkpixbuf-0.2.0-x86_64-1_bbsb.txz)|3a739a811a5ca1d8bf88434fb13d8269|[Signature](downloads/slackware-14.2/efind-gdkpixbuf-0.2.0-x86_64-1_bbsb.txz.asc)
 Ubuntu 18.04 (64-bit)|[efind-gdkpixbuf_0.2-0_amd64.deb](downloads/ubuntu-18.04/efind-gdkpixbuf_0.2-0_amd64.deb)|6b17c3b5af858e65b4e19ae656f84220|[Signature](downloads/ubuntu-18.04/efind-gdkpixbuf_0.2-0_amd64.deb.asc)
 Ubuntu 18.10 (64-bit)|[efind-gdkpixbuf_0.2-0_amd64.deb](downloads/ubuntu-18.10/efind-gdkpixbuf_0.2-0_amd64.deb)|40776cdec05692554edcce6fcde20b1e|[Signature](downloads/ubuntu-18.10/efind-gdkpixbuf_0.2-0_amd64.deb.asc)
 
@@ -45,6 +49,8 @@ Debian Stretch (32-bit)|[efind-taglib_0.2-0_i386.deb](downloads/debian-9/efind-t
 Fedora 28 (64-bit)|[efind-taglib-0.2.0-1.fc28.x86_64.rpm](downloads/fedora-28/efind-taglib-0.2.0-1.fc28.x86_64.rpm)|49a07f6c4e9caa0614c393704c8346b8|[Signature](downloads/fedora-28/efind-taglib-0.2.0-1.fc28.x86_64.rpm.asc)
 openSUSE Leap 15 (64-bit)|[efind-taglib-0.2.0-1.x86_64.rpm](downloads/opensuse-leap/efind-taglib-0.2.0-1.x86_64.rpm)|822587b912d7b24801c487e6a69f11bd|[Signature](downloads/opensuse-leap/efind-taglib-0.2.0-1.x86_64.rpm.asc)
 Raspbian Stretch (armhf)|[efind-taglib_0.2-0_armhf.deb](downloads/raspbian-9/efind-taglib_0.2-0_armhf.deb)|26c42c92c61e0c0d50ae859e6b09d316|[Signature](downloads/raspbian-9/efind-taglib_0.2-0_armhf.deb.asc)
+Slackware 14.2 (32-bit) [requires Python 3]|[efind-taglib-0.2.0-i586-1_bbsb.txz](downloads/slackware-14.2/efind-taglib-0.2.0-i586-1_bbsb.txz)|4b8eed7d189ec5de1ec55f405d46b404|[Signature](downloads/slackware-14.2/efind-taglib-0.2.0-i586-1_bbsb.txz.asc)
+Slackware 14.2 (64-bit) [requires Python 3]|[efind-taglib-0.2.0-x86_64-1_bbsb.txz](downloads/slackware-14.2/efind-taglib-0.2.0-x86_64-1_bbsb.txz)|b9302ab2ae0d2a67254f6d402788e2a5|[Signature](downloads/slackware-14.2/efind-taglib-0.2.0-x86_64-1_bbsb.txz.asc)
 Ubuntu 18.04 (64-bit)|[efind-taglib_0.2-0_amd64.deb](downloads/ubuntu-18.04/efind-taglib_0.2-0_amd64.deb)|eab80ed442527f28ec3f82e09d436a6b|[Signature](downloads/ubuntu-18.04/efind-taglib_0.2-0_amd64.deb.asc)
 Ubuntu 18.10 (64-bit)|[efind-taglib_0.2-0_amd64.deb](downloads/ubuntu-18.10/efind-taglib_0.2-0_amd64.deb)|5d3e020640fe72d4c30d6b1c9dff3270|[Signature](downloads/ubuntu-18.10/efind-taglib_0.2-0_amd64.deb.asc)
 
@@ -61,6 +67,8 @@ Debian Stretch (32-bit)|[efind-text-tools_0.2-0_i386.deb](downloads/debian-9/efi
 Fedora 28 (64-bit)|[efind-text-tools-0.2.0-1.fc28.x86_64.rpm](downloads/fedora-28/efind-text-tools-0.2.0-1.fc28.x86_64.rpm)|0affd2b41d59f2e207e49939002ec4b6|[Signature](downloads/fedora-28/efind-text-tools-0.2.0-1.fc28.x86_64.rpm.asc)
 openSUSE Leap 15 (64-bit)|[efind-text-tools-0.2.0-1.x86_64.rpm](downloads/opensuse-leap/efind-text-tools-0.2.0-1.x86_64.rpm)|337ee6a141576e3ae8f863619a197662|[Signature](downloads/opensuse-leap/efind-text-tools-0.2.0-1.x86_64.rpm.asc)
 Raspbian Stretch (armhf)|[efind-text-tools_0.2-0_armhf.deb](downloads/raspbian-9/efind-text-tools_0.2-0_armhf.deb)|c0ef4654973ca6782c78a7e2aa01dbd3|[Signature](downloads/raspbian-9/efind-text-tools_0.2-0_armhf.deb.asc)
+Slackware 14.2 (32-bit) [requires Python 3]|[efind-text-tools-0.2.0-i586-1_bbsb.txz](downloads/slackware-14.2/efind-text-tools-0.2.0-i586-1_bbsb.txz)|168d966f761ca66f2b099fa9c66052e3|[Signature](downloads/slackware-14.2/efind-text-tools-0.2.0-i586-1_bbsb.txz.asc)
+Slackware 14.2 (64-bit) [requires Python 3]|[efind-text-tools-0.2.0-x86_64-1_bbsb.txz](downloads/slackware-14.2/efind-text-tools-0.2.0-x86_64-1_bbsb.txz)|4aebf55f574cd78bc9164e3959c5bd30|[Signature](downloads/slackware-14.2/efind-text-tools-0.2.0-x86_64-1_bbsb.txz.asc)
 Ubuntu 18.04 (64-bit)|[efind-text-tools_0.2-0_amd64.deb](downloads/ubuntu-18.04/efind-text-tools_0.2-0_amd64.deb)|baafd46864c429d910210a1ad0e5e29d|[Signature](downloads/ubuntu-18.04/efind-text-tools_0.2-0_amd64.deb.asc)
 Ubuntu 18.10 (64-bit)|[efind-text-tools_0.2-0_amd64.deb](downloads/ubuntu-18.10/efind-text-tools_0.2-0_amd64.deb)|ed6dd4fdff23616088da6b419f2da725|[Signature](downloads/ubuntu-18.10/efind-text-tools_0.2-0_amd64.deb.asc)
 
