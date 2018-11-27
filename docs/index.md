@@ -6,7 +6,8 @@
 
 Basically it's a wrapper for [GNU find](https://www.gnu.org/software/findutils/)
 providing an easier and more intuitive expression syntax. It can be extended
-by custom functions to filter search results.
+by custom functions to filter search results. Furthermore, it has built-in
+sort and range functionality.
 
 Watch this screencast to get a brief overview:
 
