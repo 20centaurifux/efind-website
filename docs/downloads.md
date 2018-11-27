@@ -11,6 +11,7 @@ Arch (64-bit)|[efind-0.5.0-1-x86_64.pkg.tar.xz](downloads/arch/efind-0.5.0-1-x86
 Debian 9 (64-bit)|[efind_0.5-0_amd64.deb](downloads/debian-9/efind_0.5-0_amd64.deb)|23b0097405d46126ab96926ce6165a5a|[Signature](downloads/debian-9/efind_0.5-0_amd64.deb.asc)
 Debian 9 (32-bit)|[efind_0.5-0_i386.deb](downloads/debian-9/efind_0.5-0_i386.deb)|79fa36e65f58da270dc235f1cf427fcc|[Signature](downloads/debian-9/efind_0.5-0_i386.deb.asc)
 Fedora 28 (64-bit)|[efind-0.5.0-1.fc28.x86_64.rpm](downloads/fedora-28/efind-0.5.0-1.fc28.x86_64.rpm)|fe1d391adad578a2ef64c7aa01ca2b74|[Signature](downloads/fedora-28/efind-0.5.0-1.fc28.x86_64.rpm.asc)
+openSUSE Leap 42.2 (64-bit)|[efind-0.5.0-1.x86_64.rpm](downloads/opensuse-leap/efind-0.5.0-1.x86_64.rpm)|6bf749d088f78be8193e298c7c068a56|[Signature](downloads/opensuse-leap/efind-0.5.0-1.x86_64.rpm.asc)
 ubuntu-18.04 (64-bit)|[efind_0.5-0_amd64.deb](downloads/ubuntu-18.04/efind_0.5-0_amd64.deb)|605fb1886b2b01e157f7c97e354f1821|[Signature](downloads/ubuntu-18.04/efind_0.5-0_amd64.deb.asc)
 ubuntu-18.10 (64-bit)|[efind_0.5-0_amd64.deb](downloads/ubuntu-18.10/efind_0.5-0_amd64.deb)|fc7a75a43f5f548a2099cbe781b475d0|[Signature](downloads/ubuntu-18.10/efind_0.5-0_amd64.deb.asc)
 
@@ -25,6 +26,7 @@ Arch (64-bit)|[efind-gdkpixbuf-0.2.0-1-x86_64.pkg.tar.xz](downloads/arch/efind-g
 Debian 9 (64-bit)|[efind-gdkpixbuf_0.2-0_amd64.deb](downloads/debian-9/efind-gdkpixbuf_0.2-0_amd64.deb)|60a96d5a007191fc84d57e4bbb9ac695|[Signature](downloads/debian-9/efind-gdkpixbuf_0.2-0_amd64.deb.asc)
 Debian 9 (32-bit)|[efind-gdkpixbuf_0.2-0_i386.deb](downloads/debian-9/efind-gdkpixbuf_0.2-0_i386.deb)|b9075dc5eb4dcfb53740048565753608|[Signature](downloads/debian-9/efind-gdkpixbuf_0.2-0_i386.deb.asc)
 Fedora 28 (64-bit)|[efind-gdkpixbuf-0.2.0-1.fc28.x86_64.rpm](downloads/fedora-28/efind-gdkpixbuf-0.2.0-1.fc28.x86_64.rpm)|aeffb49625bcbf54cc8a2f4e67d4ffb0|[Signature](downloads/fedora-28/efind-gdkpixbuf-0.2.0-1.fc28.x86_64.rpm.asc)
+openSUSE Leap 42.2 (64-bit)|[efind-gdkpixbuf-0.2.0-1.x86_64.rpm](downloads/opensuse-leap/efind-gdkpixbuf-0.2.0-1.x86_64.rpm)|0870214913b5766d00a1c491d37c5871|[Signature](downloads/opensuse-leap/efind-gdkpixbuf-0.2.0-1.x86_64.rpm.asc)
 ubuntu-18.04 (64-bit)|[efind-gdkpixbuf_0.2-0_amd64.deb](downloads/ubuntu-18.04/efind-gdkpixbuf_0.2-0_amd64.deb)|6b17c3b5af858e65b4e19ae656f84220|[Signature](downloads/ubuntu-18.04/efind-gdkpixbuf_0.2-0_amd64.deb.asc)
 ubuntu-18.10 (64-bit)|[efind-gdkpixbuf_0.2-0_amd64.deb](downloads/ubuntu-18.10/efind-gdkpixbuf_0.2-0_amd64.deb)|40776cdec05692554edcce6fcde20b1e|[Signature](downloads/ubuntu-18.10/efind-gdkpixbuf_0.2-0_amd64.deb.asc)
 
@@ -53,6 +55,7 @@ Arch (64-bit)|[efind-text-tools-0.2.0-1-x86_64.pkg.tar.xz](downloads/arch/efind-
 Debian 9 (64-bit)|[efind-text-tools_0.2-0_amd64.deb](downloads/debian-9/efind-text-tools_0.2-0_amd64.deb)|5086df41369e74c19254762835120f95|[Signature](downloads/debian-9/efind-text-tools_0.2-0_amd64.deb.asc)
 Debian 9 (32-bit)|[efind-text-tools_0.2-0_i386.deb](downloads/debian-9/efind-text-tools_0.2-0_i386.deb)|de061e1d9e3f6b25fa22cd3e8a03f7ce|[Signature](downloads/debian-9/efind-text-tools_0.2-0_i386.deb.asc)
 Fedora 28 (64-bit)|[efind-text-tools-0.2.0-1.fc28.x86_64.rpm](downloads/fedora-28/efind-text-tools-0.2.0-1.fc28.x86_64.rpm)|0affd2b41d59f2e207e49939002ec4b6|[Signature](downloads/fedora-28/efind-text-tools-0.2.0-1.fc28.x86_64.rpm.asc)
+openSUSE Leap 42.2 (64-bit)|[efind-text-tools-0.2.0-1.x86_64.rpm](downloads/opensuse-leap/efind-text-tools-0.2.0-1.x86_64.rpm)|b9923ae103f43b022b7463eaf5e24a96|[Signature](downloads/opensuse-leap/efind-text-tools-0.2.0-1.x86_64.rpm.asc)
 ubuntu-18.04 (64-bit)|[efind-text-tools_0.2-0_amd64.deb](downloads/ubuntu-18.04/efind-text-tools_0.2-0_amd64.deb)|baafd46864c429d910210a1ad0e5e29d|[Signature](downloads/ubuntu-18.04/efind-text-tools_0.2-0_amd64.deb.asc)
 ubuntu-18.10 (64-bit)|[efind-text-tools_0.2-0_amd64.deb](downloads/ubuntu-18.10/efind-text-tools_0.2-0_amd64.deb)|ed6dd4fdff23616088da6b419f2da725|[Signature](downloads/ubuntu-18.10/efind-text-tools_0.2-0_amd64.deb.asc)
 
