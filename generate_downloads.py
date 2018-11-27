@@ -18,20 +18,24 @@ def build_download_name(name, filename):
 	elif name == "centos-7":
 		name = "CentOS 7"
 	elif name == "debian-9":
-		name = "Debian 9"
+		name = "Debian Stretch"
 	elif name == "fedora-28":
 		name = "Fedora 28"
 	elif name == "opensuse-leap":
-		name = "openSUSE Leap 42.2"
+		name = "openSUSE Leap 15"
 	elif name == "slackware-14.2":
 		name = "Slackware 14.2"
-	elif name == "ubuntu-18":
+	elif name == "ubuntu-18.10":
+		name = "Ubuntu 18.10"
+	elif name == "ubuntu-18.04":
 		name = "Ubuntu 18.04"
-	elif name == "ubuntu-18":
-		name = "Ubuntu 18.04"
+	elif name == "raspbian-9":
+		name = "Raspbian Stretch"
 
 	if "x86_64" in filename or "amd64" in filename:
 		name = "%s (64-bit)" % name
+	elif "armhf" in filename:
+		name = "%s (armhf)" % name
 	else:
 		name = "%s (32-bit)" % name
 
