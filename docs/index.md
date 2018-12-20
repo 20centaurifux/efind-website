@@ -130,4 +130,4 @@ much appreciated :)
 
 ## Planned features
 
-* Lua support
+* --exec option

@@ -6,17 +6,16 @@ You can use my [GnuPG key](http://dixieflatline.de/sebastian_at_dixieflatline.de
 
 | Download | Link | MD5 | GPG |
 | :------- | :--- | :-- | :-- |
-Source code|[efind-0.5.0.tar.xz](downloads/source/efind-0.5.0.tar.xz)|2188c9e9249fd7fe8257d387904888ba|[Signature](downloads/source/efind-0.5.0.tar.xz.asc)
-Arch (64-bit)|[efind-0.5.0-1-x86_64.pkg.tar.xz](downloads/arch/efind-0.5.0-1-x86_64.pkg.tar.xz)|914375b0a19d024655da6b54f19a0dad|[Signature](downloads/arch/efind-0.5.0-1-x86_64.pkg.tar.xz.asc)
-Debian Stretch (64-bit)|[efind_0.5-0_amd64.deb](downloads/debian-9/efind_0.5-0_amd64.deb)|23b0097405d46126ab96926ce6165a5a|[Signature](downloads/debian-9/efind_0.5-0_amd64.deb.asc)
-Debian Stretch (32-bit)|[efind_0.5-0_i386.deb](downloads/debian-9/efind_0.5-0_i386.deb)|79fa36e65f58da270dc235f1cf427fcc|[Signature](downloads/debian-9/efind_0.5-0_i386.deb.asc)
-Fedora 28 (64-bit)|[efind-0.5.0-1.fc28.x86_64.rpm](downloads/fedora-28/efind-0.5.0-1.fc28.x86_64.rpm)|fe1d391adad578a2ef64c7aa01ca2b74|[Signature](downloads/fedora-28/efind-0.5.0-1.fc28.x86_64.rpm.asc)
-openSUSE Leap 15 (64-bit)|[efind-0.5.0-1.x86_64.rpm](downloads/opensuse-leap/efind-0.5.0-1.x86_64.rpm)|389f492258b358560621fd84dab7ad2b|[Signature](downloads/opensuse-leap/efind-0.5.0-1.x86_64.rpm.asc)
-Raspbian Stretch (armhf)|[efind_0.5-0_armhf.deb](downloads/raspbian-9/efind_0.5-0_armhf.deb)|9ec40179bfd6ed8e3b7cd7e554e69f9f|[Signature](downloads/raspbian-9/efind_0.5-0_armhf.deb.asc)
-Slackware 14.2 (32-bit) [requires Python 3]|[efind-0.5.0-i586-1_bbsb.txz](downloads/slackware-14.2/efind-0.5.0-i586-1_bbsb.txz)|a992c6363053e9452fe98ac2d7bfd395|[Signature](downloads/slackware-14.2/efind-0.5.0-i586-1_bbsb.txz.asc)
-Slackware 14.2 (64-bit) [requires Python 3]|[efind-0.5.0-x86_64-1_bbsb.txz](downloads/slackware-14.2/efind-0.5.0-x86_64-1_bbsb.txz)|0f261148ca3b2d590ae2da62449ebb29|[Signature](downloads/slackware-14.2/efind-0.5.0-x86_64-1_bbsb.txz.asc)
-Ubuntu 18.04 (64-bit)|[efind_0.5-0_amd64.deb](downloads/ubuntu-18.04/efind_0.5-0_amd64.deb)|605fb1886b2b01e157f7c97e354f1821|[Signature](downloads/ubuntu-18.04/efind_0.5-0_amd64.deb.asc)
-Ubuntu 18.10 (64-bit)|[efind_0.5-0_amd64.deb](downloads/ubuntu-18.10/efind_0.5-0_amd64.deb)|fc7a75a43f5f548a2099cbe781b475d0|[Signature](downloads/ubuntu-18.10/efind_0.5-0_amd64.deb.asc)
+Source code|[efind-0.5.1.tar.xz](downloads/source/efind-0.5.1.tar.xz)|7dc02f6c252fb027a09b3f75303b3710|[Signature](downloads/source/efind-0.5.1.tar.xz.asc)
+Arch (64-bit)|[efind-0.5.1-1-x86_64.pkg.tar.xz](downloads/arch/efind-0.5.1-1-x86_64.pkg.tar.xz)|1b30b2b35a0d8456211f4484a74b0d85|[Signature](downloads/arch/efind-0.5.1-1-x86_64.pkg.tar.xz.asc)
+Debian Stretch (64-bit)|[efind_0.5-1_amd64.deb](downloads/debian-9/efind_0.5-1_amd64.deb)|9da3cf15052fef5d008c0890ca49629d|[Signature](downloads/debian-9/efind_0.5-1_amd64.deb.asc)
+Debian Stretch (32-bit)|[efind_0.5-1_i386.deb](downloads/debian-9/efind_0.5-1_i386.deb)|a23c311cfcb8bda70d55b24468eed977|[Signature](downloads/debian-9/efind_0.5-1_i386.deb.asc)
+Fedora 28 (64-bit)|[efind-0.5.1-1.fc28.x86_64.rpm](downloads/fedora-28/efind-0.5.1-1.fc28.x86_64.rpm)|a90ce317f8e35fda54c9e880a46e3519|[Signature](downloads/fedora-28/efind-0.5.1-1.fc28.x86_64.rpm.asc)
+openSUSE Leap 15 (64-bit)|[efind-0.5.1-1.x86_64.rpm](downloads/opensuse-leap/efind-0.5.1-1.x86_64.rpm)|634f6fd502cfd3c9b9efe368e94d34d9|[Signature](downloads/opensuse-leap/efind-0.5.1-1.x86_64.rpm.asc)
+Slackware 14.2 (32-bit) [requires Python 3]|[efind-0.5.1-i586-1_bbsb.txz](downloads/slackware-14.2/efind-0.5.1-i586-1_bbsb.txz)|aa0643200d189e4b9f17a483c601c16a|[Signature](downloads/slackware-14.2/efind-0.5.1-i586-1_bbsb.txz.asc)
+Slackware 14.2 (64-bit) [requires Python 3]|[efind-0.5.1-x86_64-1_bbsb.txz](downloads/slackware-14.2/efind-0.5.1-x86_64-1_bbsb.txz)|38f016c938b9e8322647db97e743d025|[Signature](downloads/slackware-14.2/efind-0.5.1-x86_64-1_bbsb.txz.asc)
+Ubuntu 18.04 (64-bit)|[efind_0.5-1_amd64.deb](downloads/ubuntu-18.04/efind_0.5-1_amd64.deb)|5ccae01a15bfe25bb327a65b05ee9d73|[Signature](downloads/ubuntu-18.04/efind_0.5-1_amd64.deb.asc)
+Ubuntu 18.10 (64-bit)|[efind_0.5-1_amd64.deb](downloads/ubuntu-18.10/efind_0.5-1_amd64.deb)|b1faef28effcf6ebd2596de558f8b7bf|[Signature](downloads/ubuntu-18.10/efind_0.5-1_amd64.deb.asc)
 
 ##gdkpixbuf extension
 
