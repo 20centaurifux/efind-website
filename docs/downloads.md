@@ -12,6 +12,7 @@ Debian Stretch (64-bit)|[efind_0.5-1_amd64.deb](downloads/debian-9/efind_0.5-1_a
 Debian Stretch (32-bit)|[efind_0.5-1_i386.deb](downloads/debian-9/efind_0.5-1_i386.deb)|a23c311cfcb8bda70d55b24468eed977|[Signature](downloads/debian-9/efind_0.5-1_i386.deb.asc)
 Fedora 28 (64-bit)|[efind-0.5.1-1.fc28.x86_64.rpm](downloads/fedora-28/efind-0.5.1-1.fc28.x86_64.rpm)|a90ce317f8e35fda54c9e880a46e3519|[Signature](downloads/fedora-28/efind-0.5.1-1.fc28.x86_64.rpm.asc)
 openSUSE Leap 15 (64-bit)|[efind-0.5.1-1.x86_64.rpm](downloads/opensuse-leap/efind-0.5.1-1.x86_64.rpm)|634f6fd502cfd3c9b9efe368e94d34d9|[Signature](downloads/opensuse-leap/efind-0.5.1-1.x86_64.rpm.asc)
+Raspbian Stretch (armhf)|[efind_0.5-1_armhf.deb](downloads/raspbian-9/efind_0.5-1_armhf.deb)|58769bbc4017c8b568c9c399eb695706|[Signature](downloads/raspbian-9/efind_0.5-1_armhf.deb.asc)
 Slackware 14.2 (32-bit) [requires Python 3]|[efind-0.5.1-i586-1_bbsb.txz](downloads/slackware-14.2/efind-0.5.1-i586-1_bbsb.txz)|aa0643200d189e4b9f17a483c601c16a|[Signature](downloads/slackware-14.2/efind-0.5.1-i586-1_bbsb.txz.asc)
 Slackware 14.2 (64-bit) [requires Python 3]|[efind-0.5.1-x86_64-1_bbsb.txz](downloads/slackware-14.2/efind-0.5.1-x86_64-1_bbsb.txz)|38f016c938b9e8322647db97e743d025|[Signature](downloads/slackware-14.2/efind-0.5.1-x86_64-1_bbsb.txz.asc)
 Ubuntu 18.04 (64-bit)|[efind_0.5-1_amd64.deb](downloads/ubuntu-18.04/efind_0.5-1_amd64.deb)|5ccae01a15bfe25bb327a65b05ee9d73|[Signature](downloads/ubuntu-18.04/efind_0.5-1_amd64.deb.asc)
