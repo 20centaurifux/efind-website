@@ -1,3 +1,8 @@
+## 2019-03-15 v0.5.2
+* FEATURE: --exec option
+* FIX: handle invalid encoded EFIND\_EXTENSION\_PATH environment variable properly
+* CHANGE: switched to libdatatypes v0.3.2
+
 ## 2018-12-20 v0.5.1
 * FIX: handle Python string arguments with invalid encoding
 * FIX: import Python functions without additional arguments

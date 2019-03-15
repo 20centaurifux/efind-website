@@ -19,8 +19,8 @@ def build_download_name(name, filename):
 		name = "CentOS 7"
 	elif name == "debian-9":
 		name = "Debian Stretch"
-	elif name == "fedora-28":
-		name = "Fedora 28"
+	elif name == "fedora-29":
+		name = "Fedora 29"
 	elif name == "opensuse-leap":
 		name = "openSUSE Leap 15"
 	elif name == "slackware-14.2":
@@ -69,7 +69,7 @@ with open("downloads.head.md") as f:
     print f.read()
 
 print "##efind\n"
-generate_table("efind", "0.5.1")
+generate_table("efind", "0.5.2")
 
 print "\n##gdkpixbuf extension\n\nFilter search results by image properties.\n"
 generate_table("efind-gdkpixbuf", "0.2.0")
