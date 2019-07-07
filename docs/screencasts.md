@@ -12,3 +12,6 @@
 
 # Working with configuration files.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/CNeWohj47SA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+# Running commands from efind.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/L1eoFHzLPC8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>

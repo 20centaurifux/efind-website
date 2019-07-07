@@ -127,7 +127,3 @@ You can [build](/howto-build) **efind** from source code or [download](/download
 a package for your distribution. If you should miss a package type or if you want to
 support **efind** don't hesitate to [contact](/contact) me. Any help is
 much appreciated :)
-
-## Planned features
-
-* --exec option

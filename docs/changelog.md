@@ -1,3 +1,7 @@
+## 2019-07-07 v0.5.3
+* FEATURE: new format fields (X & N)
+* CHANGE: upgraded inih
+
 ## 2019-03-15 v0.5.2
 * FEATURE: --exec option
 * FIX: handle invalid encoded EFIND\_EXTENSION\_PATH environment variable properly
