@@ -30,7 +30,7 @@ def build_download_name(name, filename):
 	elif name == "ubuntu-18.04":
 		name = "Ubuntu 18.04 (LTS)"
 
-	if "x86_64" in filename or "amd64" in filename:
+        if "x86_64" in filename or "amd64" in filename or name == "Arch":
 		name = "%s (64-bit)" % name
 	elif "armhf" in filename:
 		name = "%s (armhf)" % name
@@ -70,10 +70,10 @@ print "##efind\n"
 generate_table("efind", "0.5.3")
 
 print "\n##gdkpixbuf extension\n\nFilter search results by image properties.\n"
-generate_table("efind-gdkpixbuf", "0.2.0")
+generate_table("efind-gdkpixbuf", "0.2.1")
 
 print "\n##taglib extension\n\nFilter search results by audio tags and properties.\n"
-generate_table("efind-taglib", "0.2.0")
+generate_table("efind-taglib", "0.2.1")
 
 print "\n##text-tools extension\n\nFilter text files by content.\n"
 generate_table("efind-text-tools", "0.2.0")
