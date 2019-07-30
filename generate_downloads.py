@@ -76,7 +76,7 @@ print "\n##taglib extension\n\nFilter search results by audio tags and propertie
 generate_table("efind-taglib", "0.2.1")
 
 print "\n##text-tools extension\n\nFilter text files by content.\n"
-generate_table("efind-text-tools", "0.2.0")
+generate_table("efind-text-tools", "0.2.1")
 
 with open("downloads.tail.md") as f:
     print "\n%s" % f.read()

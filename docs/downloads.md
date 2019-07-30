@@ -64,18 +64,18 @@ Filter text files by content.
 
 | Download | Link | MD5 | GPG |
 | :------- | :--- | :-- | :-- |
-Source code|[efind-text-tools-0.2.0.tar.xz](downloads/source/efind-text-tools-0.2.0.tar.xz)|389ba2f433822732a4a88a975cfc34ac|[Signature](downloads/source/efind-text-tools-0.2.0.tar.xz.asc)
-Arch (64-bit)|[efind-text-tools-0.2.0-1-x86_64.pkg.tar.xz](downloads/arch/efind-text-tools-0.2.0-1-x86_64.pkg.tar.xz)|df500d55bb069edb9f7ea0ae2fc9cc9a|[Signature](downloads/arch/efind-text-tools-0.2.0-1-x86_64.pkg.tar.xz.asc)
-Debian Buster (64-bit)|[efind-text-tools_0.2-0_amd64.deb](downloads/debian-10/efind-text-tools_0.2-0_amd64.deb)|43e73d1be977c42857d0fc1673f65073|[Signature](downloads/debian-10/efind-text-tools_0.2-0_amd64.deb.asc)
-Debian Buster (32-bit)|[efind-text-tools_0.2-0_i386.deb](downloads/debian-10/efind-text-tools_0.2-0_i386.deb)|a82df0b3208f39793d672a7169af6deb|[Signature](downloads/debian-10/efind-text-tools_0.2-0_i386.deb.asc)
-Debian Stretch (64-bit)|[efind-text-tools_0.2-0_amd64.deb](downloads/debian-9/efind-text-tools_0.2-0_amd64.deb)|5086df41369e74c19254762835120f95|[Signature](downloads/debian-9/efind-text-tools_0.2-0_amd64.deb.asc)
-Debian Stretch (32-bit)|[efind-text-tools_0.2-0_i386.deb](downloads/debian-9/efind-text-tools_0.2-0_i386.deb)|de061e1d9e3f6b25fa22cd3e8a03f7ce|[Signature](downloads/debian-9/efind-text-tools_0.2-0_i386.deb.asc)
-Fedora 30 (64-bit)|[efind-text-tools-0.2.0-1.fc30.x86_64.rpm](downloads/fedora-30/efind-text-tools-0.2.0-1.fc30.x86_64.rpm)|22359210c275f084a3e503c8c15f28ac|[Signature](downloads/fedora-30/efind-text-tools-0.2.0-1.fc30.x86_64.rpm.asc)
-openSUSE Leap 15 (64-bit)|[efind-text-tools-0.2.0-1.x86_64.rpm](downloads/opensuse-leap/efind-text-tools-0.2.0-1.x86_64.rpm)|337ee6a141576e3ae8f863619a197662|[Signature](downloads/opensuse-leap/efind-text-tools-0.2.0-1.x86_64.rpm.asc)
-Slackware 14.2 (32-bit) - WITHOUT PYTHON SUPPORT|[efind-text-tools-0.2.0-i586-1_bbsb.txz](downloads/slackware-14.2/efind-text-tools-0.2.0-i586-1_bbsb.txz)|85215cec9ad0d2cd46f232fa2dc549b6|[Signature](downloads/slackware-14.2/efind-text-tools-0.2.0-i586-1_bbsb.txz.asc)
-Slackware 14.2 (64-bit) - WITHOUT PYTHON SUPPORT|[efind-text-tools-0.2.0-x86_64-1_bbsb.txz](downloads/slackware-14.2/efind-text-tools-0.2.0-x86_64-1_bbsb.txz)|3c7065b49dd154115262129cc9ce1ad0|[Signature](downloads/slackware-14.2/efind-text-tools-0.2.0-x86_64-1_bbsb.txz.asc)
-Ubuntu 18.04 (LTS) (64-bit)|[efind-text-tools_0.2-0_amd64.deb](downloads/ubuntu-18.04/efind-text-tools_0.2-0_amd64.deb)|94ed139d9d3b817201100f5432708adf|[Signature](downloads/ubuntu-18.04/efind-text-tools_0.2-0_amd64.deb.asc)
-Ubuntu 19.10 (64-bit)|[efind-text-tools_0.2-0_amd64.deb](downloads/ubuntu-19.10/efind-text-tools_0.2-0_amd64.deb)|f765877e306636e12a39da08c25a493b|[Signature](downloads/ubuntu-19.10/efind-text-tools_0.2-0_amd64.deb.asc)
+Source code|[efind-text-tools-0.2.1.tar.xz](downloads/source/efind-text-tools-0.2.1.tar.xz)|31911835929fe05369f1be396b196778|[Signature](downloads/source/efind-text-tools-0.2.1.tar.xz.asc)
+Arch (64-bit)|[efind-text-tools-0.2.1.tar.xz](downloads/arch/efind-text-tools-0.2.1.tar.xz)|31911835929fe05369f1be396b196778|[Signature](downloads/arch/efind-text-tools-0.2.1.tar.xz.asc)
+Debian Buster (64-bit)|[efind-text-tools_0.2-1_amd64.deb](downloads/debian-10/efind-text-tools_0.2-1_amd64.deb)|178abe1dabde55ace9d4f0f0147658f0|[Signature](downloads/debian-10/efind-text-tools_0.2-1_amd64.deb.asc)
+Debian Buster (32-bit)|[efind-text-tools_0.2-1_i386.deb](downloads/debian-10/efind-text-tools_0.2-1_i386.deb)|ee40049f5d00308d13afb0394eb7767d|[Signature](downloads/debian-10/efind-text-tools_0.2-1_i386.deb.asc)
+Debian Stretch (64-bit)|[efind-text-tools_0.2-1_amd64.deb](downloads/debian-9/efind-text-tools_0.2-1_amd64.deb)|4bc71843b5bc468f38bbc0a3848428cc|[Signature](downloads/debian-9/efind-text-tools_0.2-1_amd64.deb.asc)
+Debian Stretch (32-bit)|[efind-text-tools_0.2-1_i386.deb](downloads/debian-9/efind-text-tools_0.2-1_i386.deb)|ed7089d3e6422f6cd06c047bf7034b96|[Signature](downloads/debian-9/efind-text-tools_0.2-1_i386.deb.asc)
+Fedora 30 (64-bit)|[efind-text-tools-0.2.1-1.fc30.x86_64.rpm](downloads/fedora-30/efind-text-tools-0.2.1-1.fc30.x86_64.rpm)|d60e99b80d04e484b012d8946050f45d|[Signature](downloads/fedora-30/efind-text-tools-0.2.1-1.fc30.x86_64.rpm.asc)
+openSUSE Leap 15 (64-bit)|[efind-text-tools-0.2.1-1.x86_64.rpm](downloads/opensuse-leap/efind-text-tools-0.2.1-1.x86_64.rpm)|3b860f3939f263c06dffb41fea0e9a33|[Signature](downloads/opensuse-leap/efind-text-tools-0.2.1-1.x86_64.rpm.asc)
+Slackware 14.2 (32-bit) - WITHOUT PYTHON SUPPORT|[efind-text-tools-0.2.1-i586-1_bbsb.txz](downloads/slackware-14.2/efind-text-tools-0.2.1-i586-1_bbsb.txz)|cc2559bda62b778d31dcd989a630095c|[Signature](downloads/slackware-14.2/efind-text-tools-0.2.1-i586-1_bbsb.txz.asc)
+Slackware 14.2 (64-bit) - WITHOUT PYTHON SUPPORT|[efind-text-tools-0.2.1-x86_64-1_bbsb.txz](downloads/slackware-14.2/efind-text-tools-0.2.1-x86_64-1_bbsb.txz)|8073dd1e46ce734be9bf06df97c04392|[Signature](downloads/slackware-14.2/efind-text-tools-0.2.1-x86_64-1_bbsb.txz.asc)
+Ubuntu 18.04 (LTS) (64-bit)|[efind-text-tools_0.2-1_amd64.deb](downloads/ubuntu-18.04/efind-text-tools_0.2-1_amd64.deb)|cd25a0d859040fa7ca6acce1a024945e|[Signature](downloads/ubuntu-18.04/efind-text-tools_0.2-1_amd64.deb.asc)
+Ubuntu 19.10 (64-bit)|[efind-text-tools_0.2-1_amd64.deb](downloads/ubuntu-19.10/efind-text-tools_0.2-1_amd64.deb)|89269881af6070435673cddd46166b1f|[Signature](downloads/ubuntu-19.10/efind-text-tools_0.2-1_amd64.deb.asc)
 
 ##py-path extension
 
