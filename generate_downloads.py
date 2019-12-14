@@ -22,7 +22,7 @@ def build_download_name(name, filename):
 	elif name == "fedora-30":
 		name = "Fedora 30"
 	elif name == "opensuse-leap":
-		name = "openSUSE Leap 15"
+		name = "openSUSE Leap 15.1"
 	elif name == "slackware-14.2":
 		name = "Slackware 14.2"
 	elif name == "ubuntu-19.10":
