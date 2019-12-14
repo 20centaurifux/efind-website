@@ -25,16 +25,30 @@ and *--expr* options:
 **efind** tries to handle the first arguments as path(s) and expression. It's
 valid to run **efind** the following way:
 
-	$ efind ~/git ~/code 'type=file and name="CHANGELOG"'
-
-If you want to show the translated arguments without running GNU find use the
-*--print* option. To quote special shell characters append *--quote*:
-
-	$ efind . 'iregex=".*\.txt" and writable' --print --quote
+	$ efind ~/git ~/code "type=file and name='CHANGELOG'"
 
 **efind** is shipped with a manpage, of course.
 
 	$ man efind
+
+## Examples
+
+Print five largest files.
+
+	efind . "type=file" \
+	        --order-by "-{bytes}" \
+	        --printf " %-10{kb} | %{path}\n" \
+	        --limit 5
+
+Find find first text document containing a string and stop immediately.
+
+	efind . "name='*.txt' and text_contains('find me')" --limit 1
+
+Filter audio files by artist and convert them to WAV:
+
+	efind ~/Music \
+	      "extension_in('.mp3, .ogg') and artist_matches('David Bowie')" \
+	      --exec sox "%{filename}" tmp/"%{name}.wav" \;
 
 ## Expression Syntax
 
@@ -50,13 +64,13 @@ Expressions are evaluated from left to right. Use parentheses to force precedenc
 
 The following operators can be used to compare a file attribute to a value:
 
-| Operator | Description      |
-| :------- | :--------------- |
-| =        | equals to        |
-| >        | greater than     |
-| >=       | greater or equal |
-| <        | less than        |
-| <=       | less or equal    |
+| Operator                 | Description      |
+| :----------------------- | :--------------- |
+| =, equal, equals         | equals to        |
+| >, greater than, greater | greater than     |
+| >=, at least             | greater or equal |
+| <, less than, less       | less than        |
+| <=, at most              | less or equal    |
 
 A value must be of one of the data types listed below:
 
