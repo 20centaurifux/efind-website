@@ -40,7 +40,7 @@ Print five largest files.
 	        --printf " %-10{kb} | %{path}\n" \
 	        --limit 5
 
-Find find first text document containing a string and stop immediately.
+Find first text document containing a string and stop immediately.
 
 	efind . "name='*.txt' and text_contains('find me')" --limit 1
 
