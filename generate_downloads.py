@@ -19,16 +19,22 @@ def build_download_name(name, filename):
 		name = "Debian Stretch"
 	elif name == "debian-10":
 		name = "Debian Buster"
-	elif name == "fedora-30":
-		name = "Fedora 30"
+	elif name == "fedora-31":
+		name = "Fedora 31"
 	elif name == "opensuse-leap":
 		name = "openSUSE Leap 15.1"
+	elif name == "opensuse-tumbleweed":
+		name = "openSUSE Tumbleweed"
 	elif name == "slackware-14.2":
 		name = "Slackware 14.2"
 	elif name == "ubuntu-19.10":
 		name = "Ubuntu 19.10"
 	elif name == "ubuntu-18.04":
 		name = "Ubuntu 18.04 (LTS)"
+	elif name == "raspbian-10":
+		name = "Raspbian Buster"
+	elif name == "centos-8":
+		name = "CentOS 8"
 
         if "x86_64" in filename or "amd64" in filename or name == "Arch":
 		name = "%s (64-bit)" % name
@@ -38,7 +44,7 @@ def build_download_name(name, filename):
 		name = "%s (32-bit)" % name
 
 	if "Slackware" in name:
-		name = name + " - WITHOUT PYTHON SUPPORT"
+		name = name + " - without Python support"
 
 	return name
 
