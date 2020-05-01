@@ -15,12 +15,10 @@ def build_download_name(name, filename):
 
 	if name == "arch":
 		name = name.title()
-	elif name == "debian-9":
-		name = "Debian Stretch"
 	elif name == "debian-10":
 		name = "Debian Buster"
-	elif name == "fedora-31":
-		name = "Fedora 31"
+	elif name == "fedora-32":
+		name = "Fedora 32"
 	elif name == "opensuse-leap":
 		name = "openSUSE Leap 15.1"
 	elif name == "opensuse-tumbleweed":
@@ -29,8 +27,8 @@ def build_download_name(name, filename):
 		name = "Slackware 14.2"
 	elif name == "ubuntu-19.10":
 		name = "Ubuntu 19.10"
-	elif name == "ubuntu-18.04":
-		name = "Ubuntu 18.04 (LTS)"
+	elif name == "ubuntu-20.04":
+		name = "Ubuntu 20.04 (LTS)"
 	elif name == "raspbian-10":
 		name = "Raspbian Buster"
 	elif name == "centos-8":
@@ -73,7 +71,7 @@ with open("downloads.head.md") as f:
     print f.read()
 
 print "##efind\n"
-generate_table("efind", "0.5.4")
+generate_table("efind", "0.5.5")
 
 print "\n##gdkpixbuf extension\n\nFilter search results by image properties.\n"
 generate_table("efind-gdkpixbuf", "0.2.1")
