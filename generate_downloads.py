@@ -17,24 +17,24 @@ def build_download_name(name, filename):
 		name = name.title()
 	elif name == "debian-10":
 		name = "Debian Buster"
-	elif name == "fedora-32":
-		name = "Fedora 32"
+	elif name == "fedora-33":
+		name = "Fedora 33"
 	elif name == "opensuse-leap":
 		name = "openSUSE Leap 15.2"
 	elif name == "opensuse-tumbleweed":
 		name = "openSUSE Tumbleweed"
 	elif name == "slackware-14.2":
 		name = "Slackware 14.2"
-	elif name == "ubuntu-19.10":
-		name = "Ubuntu 19.10"
 	elif name == "ubuntu-20.04":
 		name = "Ubuntu 20.04 (LTS)"
+	elif name == "ubuntu-20.10":
+		name = "Ubuntu 20.10"
 	elif name == "raspbian-10":
 		name = "Raspbian Buster"
 	elif name == "centos-8":
 		name = "CentOS 8"
 
-        if "x86_64" in filename or "amd64" in filename or name == "Arch":
+	if "x86_64" in filename or "amd64" in filename or name == "Arch":
 		name = "%s (64-bit)" % name
 	elif "armhf" in filename:
 		name = "%s (armhf)" % name
