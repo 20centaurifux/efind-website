@@ -71,7 +71,7 @@ with open("downloads.head.md") as f:
     print f.read()
 
 print "##efind\n"
-generate_table("efind", "0.5.5")
+generate_table("efind", "0.5.6")
 
 print "\n##gdkpixbuf extension\n\nFilter search results by image properties.\n"
 generate_table("efind-gdkpixbuf", "0.2.1")
