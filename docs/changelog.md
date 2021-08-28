@@ -1,3 +1,10 @@
+## 2021-08-24 v0.5.7
+* FIX: print file-permissions and inodes correctly on big-endian systems
+* CHANGE: renamed blacklist to ignore-list
+* CHANGE: upgraded inih
+* CHANGE: upgraded libdatatypes
+* FIX: support multiple Python versions in Makefile
+
 ## 2020-12-20 v0.5.6
 * FEATURE: Python 3.9 support
 
