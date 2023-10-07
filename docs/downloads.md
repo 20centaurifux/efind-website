@@ -6,7 +6,7 @@ You can use my [GnuPG key](http://dixieflatline.de/sebastian_at_dixieflatline.de
 
 | Download | Link | MD5 | GPG |
 | :------- | :--- | :-- | :-- |
-Source code|[efind-0.5.9.tar.xz](downloads/source/efind-0.5.9.tar.xz)|d0f190fcaf208ed55a16edcd47fbf3da|[Signature](downloads/source/efind-0.5.9.tar.xz.asc)
+Source code|[efind-0.5.10.tar.xz](downloads/source/efind-0.5.10.tar.xz)|466afadf3340217a7cfaae41171cd98f|[Signature](downloads/source/efind-0.5.10.tar.xz.asc)
 
 ##gdkpixbuf extension
 
