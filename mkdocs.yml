@@ -3,7 +3,7 @@ site_description: 'Extandable wrapper for GNU find.'
 site_author: 'Sebastian Fedrau'
 site_url: 'https://github.com/20centaurifux/efind'
 
-copyright: 'Copyright (c) 2017-2018 Sebastian Fedrau'
+copyright: 'Copyright (c) 2017-2025 Sebastian Fedrau'
 
 nav:
     - Home: index.md
